@@ -1,0 +1,25 @@
+@import "./../../common.scss";
+
+.header {
+  width: calc(500px + 16px);
+  margin: 0 auto;
+  height: auto;
+  overflow-y: auto;
+  margin-top: 90px;
+
+  .logo {
+    width: 30px;
+    height: 31px;
+    float: left;
+    fill: get(atom);
+    stroke: get(atom);
+  }
+
+  .header-item {
+    float: right;
+    font: 800 16px Lato;
+    text-decoration: none;
+    color: get("atom");
+    padding: 6px 8px;
+  }
+}

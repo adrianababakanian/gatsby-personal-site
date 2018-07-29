@@ -1,0 +1,133 @@
+@import 'src/assets/style/common.scss';
+
+.Terminal {
+  width: 420px;
+  height: 490px;
+  background: white;
+  border-radius: 5px;
+  position: absolute;
+  top: calc((100vh - 480px)/2 - 40px);
+  left: calc((100% - 420px)/2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  animation: fade-in-on-load 0.8s, float 4s ease-in-out infinite;
+  animation-fill-mode: forwards;
+  transition: 1s ease-in-out;
+
+  em {
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .hov {
+    cursor: pointer;
+    font-style: normal;
+    transition: 0.2s;
+    &:hover {
+      color: #dab;
+      &.sky { color: #{map-get($colors, cycle)}; }
+      &.orange { color: #{map-get($colors, atomic)}; }
+      &.green {color: #{map-get($colors, matcha)}; }
+    }
+  }
+
+  .terminalHeader {
+    width: 100%;
+    height: 40px;
+    background: #F2F1F3;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .circleWrap {
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    left: 45px;
+    top: 2px;
+    cursor: pointer;
+
+    .circle {
+      width: 15px;
+      height: 15px;
+      margin: 12.5px 5px 12.5px 5px;
+      border-radius: 30px;
+      float: left;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+      &.sky { background: #{map-get($colors, cycle)}; }
+      &.orange { background: #{map-get($colors, atomic)}; }
+      &.green {background: #{map-get($colors, matcha)}; }
+    }
+  }
+
+  .terminalText {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: left;
+    padding: 0 20px 0 0;
+
+    .terminalTitle {
+      font-family: Puritan;
+      font-size: 26px;
+    }
+
+    .terminalMain {
+      font-family: Muli;
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+      line-height: 27px;
+
+    }
+
+    .terminalSub {
+      font-family: Muli;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .terminalLink {
+      width: 140px;
+      font-family: Muli;
+      font-size: 22px;
+      padding: 8px 0;
+      font-weight: 800;
+      color: #b0e695;
+      margin: 15px 0;
+      cursor: pointer;
+
+      .bottom {
+        width: 100%;
+        height: 20px;
+        margin: -10px 0 0 -8px;
+        background: #b0e69522;
+      }
+    }
+  }
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.2);
+    transform: translateY(0);
+  }
+  50% {
+    box-shadow: 0 13px 15px 0px rgba(0,0,0,0.1);
+    transform: translateY(-8px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.2);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-on-load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+$colors: (
+  cycle: #93D9FF,
+  matcha: #B0E695,
+  atomic: #F9886C,
+  atom: #253044
+);
+
+@function get($color) {
+  @return #{map-get($colors, $color)};
+}
+
+@mixin color-list {
+  @each $color in $colors {
+      .#{$color} { background: $color; }
+  }
+}
+
+@include color-list;
+
+.container {
+  width: 500px;
+  height: auto;
+  margin: 100px auto;
+  font-family: Lato;
+  color: get(atom);
+
+  h1 {
+    font: 700 38px Lato;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font: 400 24px Lato;
+    line-height: 46px;
+    width: 476px;
+  }
+}
