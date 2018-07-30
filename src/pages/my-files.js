@@ -1,11 +1,17 @@
 import React from "react"
+import Preview from './../components/preview/Preview';
 
 export default ({ data }) => {
   console.log(data)
   return (
     <div>
-      <h1>My Site's Files</h1>
-      <table>
+      <h2>Design</h2>
+
+      {data.allFile.edges.map(({ node }, index) =>
+        <Preview key={index} name={node.relativePath}/>
+      )}
+
+      {/* <table>
         <thead>
           <tr>
             <th>relativePath</th>
@@ -16,7 +22,7 @@ export default ({ data }) => {
         </thead>
         <tbody>
           {data.allFile.edges.map(({ node }, index) =>
-            <tr key={index}>
+            <Preview key={index} name={node.relativePath}>
               <td>
                 {node.relativePath}
               </td>
@@ -29,10 +35,10 @@ export default ({ data }) => {
               <td>
                 {node.birthTime}
               </td>
-            </tr>
+            </Preview>
           )}
         </tbody>
-      </table>
+      </table> */}
     </div>
   )
 }

@@ -20,7 +20,7 @@ const IndexPage = () => (
 
     <h3>
       I believe in the power of visually informed interaction-driven
-      engineering & a good cup of Uji matcha.
+      engineering & a good cup of Uji matcha. 🍵
     </h3>
     <Link to="/page-2/">Go to page 2</Link>
   </div>
