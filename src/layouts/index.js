@@ -16,14 +16,14 @@ const links = [
 const Layout = ({ children, data }) => (
 
   <div>
-    <Helmet
+    {/* <Helmet
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
-    <Header siteTitle={data.site.siteMetadata.title} links={links} />
+    /> */}
+    <Header links={links} />
     <div className="container">
       {children()}
     </div>

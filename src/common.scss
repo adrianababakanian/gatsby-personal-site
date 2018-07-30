@@ -31,9 +31,19 @@ $colors: (
     letter-spacing: 1px;
   }
 
-  p {
+  h2 {
+    font: 600 24px Lato;
+    width: 476px;
+  }
+
+  h3 {
     font: 400 24px Lato;
     line-height: 46px;
     width: 476px;
+  }
+
+  p {
+    font: 400 16px Lato;
+    width: 500px;
   }
 }
