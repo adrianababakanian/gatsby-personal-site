@@ -9,5 +9,10 @@ date: "2017-07-12T17:12:33.962Z"
 I recently took on the immense role of creating a permanent brand for Cal Hacks, an organization whose visual identity was previously defined by an iterating annual design corresponding to each iteration of our hackathon. As we’ve matured from a startup-like environment into an established organization, our influence in the realm of technology extends beyond the space of hackathons into entrepreneurship, diversity, inclusivity, and beyond — thus rendering a cohesive branding identity crucial!
 
 Check out my process behind establishing our visual identity below. You can also take a look at the work I did for Cal Hacks 4.0, before the permanent brand was initialized!
+<img src="./../../assets/images/logo.svg"/>
+
+<!-- ![alt text][logo]
+
+[logo]: ./../../assets/images/matcha.png "Logo Title Text 2" -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4n0xNbfJLR8" frameborder="0" allowfullscreen></iframe>

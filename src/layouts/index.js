@@ -7,7 +7,7 @@ import './index.css'
 import './index.scss'
 
 const links = [
-  ["About", "red"],
+  ["About", "sakura"],
   ["Prototyping", "atomic"],
   ["Code", "matcha"],
   ["Design", "cycle"]
@@ -16,13 +16,13 @@ const links = [
 const Layout = ({ children, data }) => (
 
   <div>
-    {/* <Helmet
+    <Helmet
       title={data.site.siteMetadata.title}
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    /> */}
+    />
     <Header links={links} />
     <div className="container">
       {children()}

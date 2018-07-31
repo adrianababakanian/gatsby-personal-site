@@ -31,6 +31,7 @@
     &.cycle { @include colorize(cycle) }
     &.matcha { @include colorize(matcha) }
     &.atomic { @include colorize(atomic) }
+    &.sakura { @include colorize(sakura) }
 
     &.header {
       height: 0%;

@@ -8,7 +8,7 @@ const DesignPage = ({
  }) => {
   return (
     <div>
-      <h2>Design</h2>
+      <h1>Design</h1>
       <p>
         Lorem ipsum dolor sit amet, lorem ipsum.
       </p>
