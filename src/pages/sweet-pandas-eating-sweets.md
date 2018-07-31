@@ -1,7 +1,7 @@
 ---
 path: "/blog/my-second-post"
 title: "Sweet Pandas Eating Sweets"
-date: "2017-08-10"
+date: "2017-08-12T17:12:33.962Z"
 ---
 
 Pandas are really sweet.
