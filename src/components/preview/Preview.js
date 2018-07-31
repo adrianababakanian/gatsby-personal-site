@@ -3,10 +3,10 @@ import Link from 'gatsby-link';
 
 import './Preview.scss'
 
-const Preview = ({ name }) => (
-  <Link className="preview">
+const Preview = ({ project }) => (
+  <Link to={project.frontmatter.path} className="preview">
     <div className="preview-hover">
-      { name }
+      { project.frontmatter.title }
     </div>
   </Link>
 )

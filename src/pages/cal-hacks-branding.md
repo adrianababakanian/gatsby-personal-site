@@ -1,4 +1,5 @@
 ---
+path: "/design/cal-hacks-branding"
 title: "Cal Hacks Branding"
 ---
 

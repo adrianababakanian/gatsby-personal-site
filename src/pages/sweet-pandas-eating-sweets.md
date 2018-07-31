@@ -1,4 +1,5 @@
 ---
+path: "/blog/my-second-post"
 title: "Sweet Pandas Eating Sweets"
 date: "2017-08-10"
 ---
