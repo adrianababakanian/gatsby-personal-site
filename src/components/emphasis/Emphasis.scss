@@ -17,14 +17,13 @@
   }
 
   .highlight {
-    position: relative;
-    z-index: 20;
     background: lightblue;
     opacity: 0.3;
     position: absolute;
-    width: 100%;
+    z-index: 0;
+    width: 102%;
     height: 72%;
-    left: 0;
+    left: -1%;
     bottom: -3px;
     transition: 0.2s ease-in-out;
 
