@@ -1,17 +1,7 @@
 @import './../../common.scss';
 
-@mixin colorize($color) {
-  background: get($color);
-}
-
-@mixin bottom-colorize($color) {
-  border-bottom-color: get($color);
-}
-
 .em {
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-bottom-color: #ffffff00;
+  border-bottom: 3px solid #ffffff00;
   position: relative;
   padding: 0 2px 6px 2px;
   transition: border-bottom 0.2s ease-in-out;
@@ -31,10 +21,6 @@
     left: -1%;
     bottom: -3px;
     transition: 0.2s ease-in-out;
-
-    border-bottom-width: 3px;
-    border-bottom-style: solid;
-    border-bottom-color: #ffffff00;
 
     &.cycle { @include colorize(cycle) }
     &.matcha { @include colorize(matcha) }

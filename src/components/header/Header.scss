@@ -21,5 +21,11 @@
     text-decoration: none;
     color: get("atom");
     padding: 6px 8px;
+
+    &.cycle { @include font-colorize(cycle) }
+    &.matcha { @include font-colorize(matcha) }
+    &.atomic { @include font-colorize(atomic) }
+    &.sakura { @include font-colorize(sakura) }
   }
+
 }

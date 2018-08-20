@@ -10,20 +10,24 @@ $colors: (
   deep-shadow: rgba(0, 0, 0, 0.18)
 );
 
+$shadow: 0 2px 12px 2px get(shadow);
+$deep-shadow: 0 4px 12px 4px get(deep-shadow);
+
 @function get($color) {
   @return #{map-get($colors, $color)};
 }
 
-$shadow: 0 2px 12px 2px get(shadow);
-$deep-shadow: 0 4px 12px 4px get(deep-shadow);
-
-@mixin color-list {
-  @each $color in $colors {
-      .#{$color} { background: $color; }
-  }
+@mixin colorize($color) {
+  background: get($color);
 }
 
-@include color-list;
+@mixin bottom-colorize($color) {
+  border-bottom-color: get($color);
+}
+
+@mixin font-colorize($color) {
+  color: get($color);
+}
 
 .container {
   width: 500px;

@@ -11,7 +11,8 @@ const Header = ({ siteTitle, links }) => (
     <Link to="/" className="logo"> <img src={logo}/> </Link>
     {links && links.map(link => (
       <Link to={`/${link[0].toLowerCase()}`}
-            className="header-item">
+            className="header-item"
+            activeClassName={`${link[1]}`}>
         <Emphasis content={link[0]} color={link[1]} header={true}>
           {link[0]}
         </Emphasis>
