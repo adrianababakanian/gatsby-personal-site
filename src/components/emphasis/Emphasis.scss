@@ -2,11 +2,16 @@
 
 @mixin colorize($color) {
   background: get($color);
+}
+
+@mixin bottom-colorize($color) {
   border-bottom-color: get($color);
 }
 
 .em {
-  border-bottom: 3px solid #ffffff00;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #ffffff00;
   position: relative;
   padding: 0 2px 6px 2px;
   transition: border-bottom 0.2s ease-in-out;
@@ -27,6 +32,10 @@
     bottom: -3px;
     transition: 0.2s ease-in-out;
 
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff00;
+
     &.cycle { @include colorize(cycle) }
     &.matcha { @include colorize(matcha) }
     &.atomic { @include colorize(atomic) }
@@ -41,7 +50,11 @@
   }
 
   &:hover {
-    border-bottom: 3px solid black;
+    &.cycle { @include bottom-colorize(cycle) }
+    &.matcha { @include bottom-colorize(matcha) }
+    &.atomic { @include bottom-colorize(atomic) }
+    &.sakura { @include bottom-colorize(sakura) }
+
     .highlight {
       height: 118%;
       display: block;
