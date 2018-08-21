@@ -1,5 +1,5 @@
 import React from 'react'
-import me from './../assets/images/me-min.jpg'
+import me from './../assets/images/me-min-2.jpg'
 
 import './../common.scss';
 

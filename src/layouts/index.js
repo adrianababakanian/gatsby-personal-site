@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { StickyContainer, Sticky } from 'react-sticky'
 
 import Header from '../components/header/Header'
 import './index.css'
@@ -23,10 +24,14 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header links={links} />
-    <div className="container">
-      {children()}
-    </div>
+    <StickyContainer>
+      <Sticky>
+        {({ style }) => <Header links={links} style={style} />}
+      </Sticky>
+      <div className="container">
+        {children()}
+      </div>
+    </StickyContainer>
   </div>
 )
 

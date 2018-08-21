@@ -2,8 +2,7 @@
 path: "/design/cal-hacks-branding"
 title: "Cal Hacks Branding"
 date: "2017-07-12T17:12:33.962Z"
-attachments:
-  - "./../../assets/images/scaled.png"
+featuredImage: ./scaled.png
 ---
 
 [Cal Hacks](https://calhacks.io) is a nonprofit organization composed of students passionate about fostering a culture of hacking, entrepreneurship, and social good via the empowerment of technology. Our claim to fame is throwing the world’s largest collegiate hackathon every fall! I’ve been a director at Cal Hacks since January of 2017. As our team’s designer, Cal Hacks is for me the perfect vessel to utilize my love of design as a tool for progressing the causes that inspire me.

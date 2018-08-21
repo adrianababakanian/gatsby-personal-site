@@ -6,8 +6,8 @@ import Emphasis from './../emphasis/Emphasis'
 import './Header.scss'
 import logo from './../../assets/images/logo.svg';
 
-const Header = ({ siteTitle, links }) => (
-  <div className="header">
+const Header = ({ siteTitle, links, style }) => (
+  <div className="header" style={ style }>
     <Link to="/" className="logo"> <img src={logo}/> </Link>
     {links && links.map(link => (
       <Link to={`/${link[0].toLowerCase()}`}

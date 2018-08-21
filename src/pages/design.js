@@ -1,5 +1,6 @@
 import React from "react"
-import Preview from './../components/preview/Preview';
+import Img from 'gatsby-image'
+import Preview from './../components/preview/Preview'
 
 const DesignPage = ({
   data: {
@@ -14,7 +15,10 @@ const DesignPage = ({
       </p>
 
       {edges.map(edge =>
-        <Preview key={edge.node.id} project={edge.node} color="cycle" />
+        <div>
+          <Preview key={edge.node.id} project={edge.node} color="cycle" />
+          <Img sizes={edge.node.frontmatter.featuredImage.childImageSharp.sizes} />
+        </div>
       )}
 
     </div>
@@ -34,6 +38,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 630) {
+                        ...GatsbyImageSharpSizes # from the gatsby-image component
+                    }
+                }
+            }
           }
         }
       }

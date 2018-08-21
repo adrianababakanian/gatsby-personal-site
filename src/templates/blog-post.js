@@ -9,9 +9,10 @@ export default function Template({
   const { markdownRemark: post } = data; // data.markdownRemark holds our post data
   return (
     <div className="blog-post-container">
-      <Helmet title={`Your Blog Name - ${post.frontmatter.title}`} />
+      <Helmet title={`Adriana Babakanian | ${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
+        <h2>{post.frontmatter.attachments}</h2>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -21,6 +22,7 @@ export default function Template({
   );
 }
 
+// GraphQL query that gets the markdown data
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {

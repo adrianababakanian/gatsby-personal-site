@@ -19,6 +19,10 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   }
 };
 
+/**
+ * Gatsby calls this API at build time with the injected parameters,
+ * boundActionCreators and graphql.
+ */
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
