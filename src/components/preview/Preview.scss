@@ -9,6 +9,8 @@
   transition: 0.5s;
   display: block;
   text-decoration: none;
+  position: relative;
+  overflow: hidden;
 
   &.cycle { @include colorize(cycle) }
   &.matcha { @include colorize(matcha) }
@@ -34,6 +36,9 @@
     text-align: center;
     line-height: 260px;
     opacity: 0;
-    transition: 0.5s
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }

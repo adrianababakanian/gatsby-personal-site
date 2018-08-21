@@ -16,8 +16,9 @@ const DesignPage = ({
 
       {edges.map(edge =>
         <div>
-          <Preview key={edge.node.id} project={edge.node} color="cycle" />
-          <Img sizes={edge.node.frontmatter.featuredImage.childImageSharp.sizes} />
+          <Preview key={edge.node.id} project={edge.node} color="cycle">
+            <Img sizes={edge.node.frontmatter.featuredImage.childImageSharp.sizes} />
+          </Preview>
         </div>
       )}
 
@@ -40,7 +41,8 @@ export const pageQuery = graphql`
             title
             featuredImage {
                 childImageSharp{
-                    sizes(maxWidth: 630) {
+                    # specify image processing specifications in the query
+                    sizes(maxWidth: 1000) {
                         ...GatsbyImageSharpSizes # from the gatsby-image component
                     }
                 }
