@@ -10,7 +10,7 @@ const CodePage = ({
     <div>
       <h1>Code</h1>
       <p>
-        Lorem ipsum dolor sit amet, lorem ipsum.
+        The full stack.
       </p>
 
       {edges.map(edge =>

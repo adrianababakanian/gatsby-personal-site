@@ -17,10 +17,8 @@
   &.atomic { @include colorize(atomic) }
   &.sakura { @include colorize(sakura) }
 
-  &:link, &:visited, &:hover, &:active  { color: get(atom); }
-
   &:hover {
-    box-shadow: $shadow;
+    box-shadow: 0 2px 12px 2px get(shadow);
     transform: translateY(-2px);
     .preview-hover {
       opacity: 1

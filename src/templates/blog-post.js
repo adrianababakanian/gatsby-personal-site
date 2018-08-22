@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import Img from 'gatsby-image'
 
 // import '../css/blog-post.css'; // make it pretty!
 
@@ -17,6 +18,8 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
+        <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
+        <Img sizes={post.frontmatter.another.childImageSharp.sizes} />
       </div>
     </div>
   );
@@ -31,6 +34,20 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        featuredImage {
+            childImageSharp{
+                sizes(maxWidth: 1000) {
+                    ...GatsbyImageSharpSizes
+                }
+            }
+        }
+        another {
+            childImageSharp{
+                sizes(maxWidth: 1000) {
+                    ...GatsbyImageSharpSizes
+                }
+            }
+        }
       }
     }
   }

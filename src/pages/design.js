@@ -11,7 +11,7 @@ const DesignPage = ({
     <div>
       <h1>Design</h1>
       <p>
-        Lorem ipsum dolor sit amet, lorem ipsum.
+        Product, user interface, visual, branding, & beyond.
       </p>
 
       {edges.map(edge =>

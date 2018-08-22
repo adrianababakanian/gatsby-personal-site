@@ -7,7 +7,9 @@ $colors: (
   sakura: #EAD2DC,
   atom: #253044,
   shadow: rgba(0, 0, 0, 0.14),
-  deep-shadow: rgba(0, 0, 0, 0.18)
+  deep-shadow: rgba(0, 0, 0, 0.18),
+
+  trans_cycle: #93D9FF70
 );
 
 $shadow: 0 2px 12px 2px get(shadow);
@@ -35,6 +37,21 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   margin: 100px auto;
   font-family: Lato;
   color: get(atom);
+
+  a {
+    &:link, &:visited, &:active  {
+      color: get(atom);
+      text-decoration: none;
+      border-bottom: 3px solid get(cycle);
+      background-color: transparent;
+      transition: background-color 0.2s ease-in-out;
+      padding: 0 2px;
+
+      &:hover {
+        background-color: get(trans_cycle);
+      }
+    }
+  }
 
   h1 {
     font: 700 38px Lato;
