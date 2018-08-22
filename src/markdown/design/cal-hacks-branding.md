@@ -13,8 +13,4 @@ I recently took on the immense role of creating a permanent brand for Cal Hacks,
 Check out my process behind establishing our visual identity below. You can also take a look at the work I did for Cal Hacks 4.0, before the permanent brand was initialized!
 <img src="./../../assets/images/logo.svg"/>
 
-<!-- ![alt text][logo]
-
-[logo]: ./../../assets/images/matcha.png "Logo Title Text 2" -->
-
 <iframe width="560" height="315" src="https://drive.google.com/drive/folders/1RQnKz_YfmRGzNZ2X9HvQ0ZMn8d1zourY"></iframe>
