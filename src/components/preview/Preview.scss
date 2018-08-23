@@ -5,6 +5,7 @@
   height: 276px;
   border-radius: 4px;
   margin: 20px 0;
+  padding: 0;
   cursor: pointer;
   transition: 0.5s;
   display: block;
@@ -19,9 +20,8 @@
 
   &:hover {
     box-shadow: 0 2px 12px 2px get(shadow);
-    transform: translateY(-2px);
     .preview-hover {
-      opacity: 1
+      opacity: 1;
     }
   }
 

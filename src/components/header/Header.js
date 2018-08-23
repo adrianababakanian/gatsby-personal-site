@@ -13,9 +13,9 @@ const Header = ({ siteTitle, links, style }) => (
       <Link to={`/${link[0].toLowerCase()}`}
             className="header-item"
             activeClassName={`${link[1]}`}>
-        <Emphasis content={link[0]} color={link[1]} header={true}>
+        <div className={`header-item-content ${link[1]}`}>
           {link[0]}
-        </Emphasis>
+        </div>
       </Link>
     ))}
   </div>

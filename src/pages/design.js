@@ -17,7 +17,7 @@ const DesignPage = ({
       {edges.map(edge =>
         <div>
           <Preview key={edge.node.id} project={edge.node} color="cycle">
-            <Img sizes={edge.node.frontmatter.featuredImage.childImageSharp.sizes} />
+            <Img imgStyle={{height: 276}} sizes={edge.node.frontmatter.featuredImage.childImageSharp.sizes} />
           </Preview>
         </div>
       )}

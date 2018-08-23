@@ -13,13 +13,10 @@ export default function Template({
       <Helmet title={`Adriana Babakanian | ${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
-        <h2>{post.frontmatter.attachments}</h2>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
-        <Img sizes={post.frontmatter.another.childImageSharp.sizes} />
       </div>
     </div>
   );

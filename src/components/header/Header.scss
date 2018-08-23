@@ -22,6 +22,20 @@
     color: get("atom");
     padding: 6px 8px;
 
+    .header-item-content {
+      border-radius: 3px;
+      background: transparent;
+      padding: 4px 8px;
+      transition: background 0.2s ease-in-out;
+
+      &:hover {
+        &.cycle { @include colorize(trans_cycle) }
+        &.matcha { @include colorize(trans_matcha) }
+        &.atomic { @include colorize(trans_atomic) }
+        &.sakura { @include colorize(trans_sakura) }
+      }
+    }
+
     &.cycle { @include font-colorize(cycle) }
     &.matcha { @include font-colorize(matcha) }
     &.atomic { @include font-colorize(atomic) }
