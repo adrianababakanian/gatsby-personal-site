@@ -5,10 +5,8 @@ import Emphasis from './../components/emphasis/Emphasis'
 
 import './../common.scss';
 
-import Terminal from '../components/terminal/Terminal'
-
 const IndexPage = () => (
-  <div>
+  <div className='intro'>
     <h1>Hi, I'm Adriana.</h1>
     <h3>
       I'm a

@@ -1,11 +1,16 @@
 @import "./../../common.scss";
 
 .header {
-  width: calc(500px + 16px);
-  margin: 0 auto;
+  background: white;
+  width: 516px;
   height: auto;
   overflow-y: auto;
-  margin-top: 90px;
+  padding: 90px 0 10px 0;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -258px;
+  z-index: 10;
 
   .logo {
     width: 30px;
