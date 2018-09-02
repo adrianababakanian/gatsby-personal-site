@@ -12,17 +12,26 @@
   text-decoration: none;
   position: relative;
   overflow: hidden;
+  border-bottom: none;
 
-  &.cycle { @include colorize(cycle) }
-  &.matcha { @include colorize(matcha) }
-  &.atomic { @include colorize(atomic) }
-  &.sakura { @include colorize(sakura) }
+  // &.cycle { @include colorize(cycle) }
+  // &.matcha { @include colorize(matcha) }
+  // &.atomic { @include colorize(atomic) }
+  // &.sakura { @include colorize(sakura) }
 
   &:hover {
     box-shadow: 0 2px 12px 2px get(shadow);
     .preview-hover {
       opacity: 1;
     }
+  }
+
+  .preview-image {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 
   .preview-hover {
