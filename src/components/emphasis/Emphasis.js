@@ -8,7 +8,6 @@ const Emphasis = ({ content, color, header }) => {
     <span>
       &nbsp;
       <span className={`em ${color}`}>
-        <span className={`highlight ${color} ${header && header ? "header" : ""}`}/>
         <span className="content">{ content }</span>
       </span>
     </span>

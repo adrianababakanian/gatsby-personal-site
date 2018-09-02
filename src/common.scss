@@ -12,7 +12,12 @@ $colors: (
   trans_cycle: #93D9FFCC,
   trans_matcha: #B0E695CC,
   trans_atomic: #F9886CCC,
-  trans_sakura: #EAD2DCCC
+  trans_sakura: #EAD2DCCC,
+
+  x_trans_cycle: #93D9FF99,
+  x_trans_matcha: #B0E69599,
+  x_trans_atomic: #F9886C99,
+  x_trans_sakura: #EAD2DC99
 );
 
 $shadow: 0 2px 12px 2px get(shadow);
@@ -49,8 +54,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     &:link, &:visited, &:active  {
       color: get(atom);
       text-decoration: none;
-      // border-bottom: 3px solid get(cycle);
-      background-color: transparent;
+      background-color: get(x_trans_cycle);
       transition: background-color 0.2s ease-in-out;
       padding: 2px 5px;
       border-radius: 4px;
@@ -88,12 +92,6 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     font: 400 16px Lato;
     width: 500px;
     line-height: 30px;
-
-    a {
-      &:link, &:visited, &:active  {
-        border-bottom: 3px solid get(cycle);
-      }
-    }
   }
 
   .me-wrap {
