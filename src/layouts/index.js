@@ -24,14 +24,12 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <StickyContainer>
-      <Sticky>
-        {({ style }) => <Header links={links} style={style} />}
-      </Sticky>
+    <div>
+      <Header links={links} />
       <div className="container">
         {children()}
       </div>
-    </StickyContainer>
+    </div>
   </div>
 )
 

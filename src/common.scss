@@ -44,11 +44,16 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
 }
 
 .container {
-  width: 500px;
+  width: 600px;
   height: auto;
   margin: 220px auto;
   font-family: Lato;
   color: get(atom);
+
+  @media (max-width: 700px) {
+    margin: 220px 20px;
+    width: calc(100vw - 40px);
+  }
 
   a {
     &:link, &:visited, &:active  {
@@ -59,11 +64,18 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
       padding: 2px 5px;
       border-radius: 4px;
 
+      &.preview {
+        border-radius: 8px;
+      }
+
       &:hover {
         background-color: get(trans_cycle);
+        font-weight: 600;
       }
     }
   }
+
+
 
   h1 {
     font: 700 38px Lato;
@@ -88,9 +100,9 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     margin: 20px 0;
   }
 
-  p {
+  p, ul, li {
     font: 400 16px Lato;
-    width: 500px;
+    width: 600px;
     line-height: 30px;
   }
 
