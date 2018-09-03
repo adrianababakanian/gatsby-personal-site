@@ -55,6 +55,13 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     width: calc(100vw - 40px);
   }
 
+  ul {
+    list-style-type:none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+
   a {
     &:link, &:visited, &:active  {
       color: get(atom);

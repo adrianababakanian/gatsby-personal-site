@@ -51,4 +51,14 @@ To ensure that this brand is used as it is intended — universally and permanen
 
 I used both of these assets myself when I made the permanent Cal Hacks site, which you can learn more about here!
 
-##  
+## Brand Extensions
+The standardization of our visual image extended to my branding campaigns across our Cal Hacks initiatives. The purpose of the branding campaign is to add cohesion to our visual identity, and as such I built on the style I established to create sub-logos integrated with the branding guidelines.
+
+![](./squad.png)
+
+#### The Cal Hacks Fellowship
+We rolled out our new initiative for entrepreneurial hackers, the Cal Hacks Fellowship, during Cal Hacks 4.0 and mentored our first round of Fellows throughout the following spring. I wanted to create a standalone logo for the Fellowship that would still mesh well with its parent brand. As such, I developed the logo in conjunction with our Hackanile.
+
+My reasons for choosing a rocket were twofold — the launching of a rocket perfectly captures the spirit of ideational acceleration and incubation embraced by our fellowship, and it’s also the favorite emoji of Aakash, our fellowship program lead! I thus iterated on the rocket idea until resulting in the final version, a circuit-inspired rocketship matching in visual style with the Hackanile yet still able to serve as a logo on its own.
+
+#### CubStart
