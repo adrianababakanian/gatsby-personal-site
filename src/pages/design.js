@@ -8,7 +8,7 @@ const DesignPage = ({
   },
  }) => {
   return (
-    <div>
+    <div className='design'>
       <h1>Design</h1>
       <p>
         Product, user interface, visual, branding, & beyond.

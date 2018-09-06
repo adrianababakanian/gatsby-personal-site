@@ -55,6 +55,15 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     width: calc(100vw - 40px);
   }
 
+  code {
+    color: get(matcha);
+  }
+
+  pre {
+    background: hsla(0,0,0,0.02);
+    border-radius: 4px;
+  }
+
   ul {
     list-style-type:none;
     margin-left: 0;
@@ -81,8 +90,6 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
       }
     }
   }
-
-
 
   h1 {
     font: 700 38px Lato;
