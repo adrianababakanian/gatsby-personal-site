@@ -9,7 +9,7 @@ featuredImage: ./dinestination.png
 
 My team developed an Android app called Dinestination, an application that determines the best place for a user to eat based on time constraints and target destination. Feel free to check out our [source code](https://github.com/adrianababakanian/busybears) and [final project video](https://github.com/adrianababakanian/busybears)!
 
-![](dinestination.png)
+![](./dinestination.png)
 
 In this section I focus on detailing my design process behind the visual interface development. For technical details regarding my implementation process, please see the programming section of my site here!
 
@@ -108,27 +108,29 @@ Below is a summary of the UER results that informed the next stages of design it
 ## High Fidelity Prototype
 My iterations from low fidelity to high fidelity prototype were informed by the results of my user experience research as detailed above. Priority was assigned to re-designs that minimized the user’s gulfs of execution and evaluation — that is, iterating upon the design in order to match the user’s expectations of how the system should respond to their interactions. You can check out the evolution points below, our [mid-semester critique slide deck](https://docs.google.com/presentation/d/1wGbCuoasUhY5VAoaSJaGSB7ZcSgSKTjhLn_0XNrSA-4/edit) and the [finalized Invision prototype](https://projects.invisionapp.com/share/WJG4MRC5FN6#/screens/284576440_Main_Screen)!
 
+The comparisons below show the low-fidelity screens on the left, and screenshots of the corresponding screens in the final implemented interface.
+
 #### Key evolution points:
 
-* &rarr; Misleading signifiers removed from interface.
-  * &rarr; I removed the “find restaurants” button from the main screen and then display it conditionally only once the user has input their required logistics. This decision is consistent both with the aforementioned user research results and Hicks’ Law, which states that the time it takes for a user to make a decision increases with the number of options presented to said user.
-  ![](./screens/signifiers.png)
-* &rarr; Resolved lack of clarity in how to navigate to desired restaurant once determined.
-  * &rarr; I initially used a check mark icon as a means of “selecting” a restaurant to navigate to. However, users were not able to intuitively understand this visually, so I changed to the standard Google directions icon. This change both increased familiarity and conformed to standard Android UI patterns.
-  ![](./screens/navigate.png)
-* &rarr; Filter button moved to be more integrated into the main interaction.
-  * &rarr; In the low fidelity prototype, applying preference filters was entirely removed from the process of inputing the target destination, and several users did not even notice the filtering functionality. As such, I integrated the filter button into the destination input section so as to connect the two processes. I also changed the button from an icon to a text button to conform with Android UI patterns, and changed the filter icon to a slider bar similar to the one used by Yelp in order to make it recognizable to the target user.
-  ![](./screens/filter_1.png)
-  ![](./screens/filter_2.png)
-* &rarr; Added signifiers to visually reinforce successful filter application.
-  * &rarr; My first interaction mocks signified successful filter application via an awkward confirmation popup that disappeared after returning to the map. To address this lack of visibility of system status, I added the applied filters to a scroll bar persistent at the top of the interface.
-  ![](./screens/apply.png)
-* &rarr; Visual design evolution to a more dynamic color palette and removing unwanted visual associations.
-  * &rarr; The visual design evolution was primarily characterized by a transformation to Android UI standards and a change in color palette. The deep pink color palette used initially ended up looking slightly pathological when applied to the heatmap, so I transitioned to a more visually dynamic color palette of vibrant blues and greens. This decision both eliminated unwanted visual associations and created a more dynamic contrast against the cool muted map background.
-  ![](./screens/color.png)
-* &rarr; Lack of flexibility in choosing how to navigate.
-  * &rarr; Added transportation options (driving, walking, biking, ridesharing) to the map once destination has been entered so that the user can select between the different options and see how the resulting route based on the type of transportation selected.
-  ![](./screens/navigate.png)
+* __&rarr; Misleading signifiers removed from interface__.
+  * &#8702; I removed the “find restaurants” button from the main screen and then display it conditionally only once the user has input their required logistics. This decision is consistent both with the aforementioned user research results and Hicks’ Law, which states that the time it takes for a user to make a decision increases with the number of options presented to said user.
+  ![](./signifiers.png)
+* __&rarr; Resolved lack of clarity in how to navigate to desired restaurant once determined__.
+  * &#8702; I initially used a check mark icon as a means of “selecting” a restaurant to navigate to. However, users were not able to intuitively understand this visually, so I changed to the standard Google directions icon. This change both increased familiarity and conformed to standard Android UI patterns.
+  ![](./navigation.png)
+* __&rarr; Filter button moved to be more integrated into the main interaction__.
+  * &#8702; In the low fidelity prototype, applying preference filters was entirely removed from the process of inputing the target destination, and several users did not even notice the filtering functionality. As such, I integrated the filter button into the destination input section so as to connect the two processes. I also changed the button from an icon to a text button to conform with Android UI patterns, and changed the filter icon to a slider bar similar to the one used by Yelp in order to make it recognizable to the target user.
+  ![](./filters-1.png)
+  ![](./filters-2.png)
+* __&rarr; Added signifiers to visually reinforce successful filter application__.
+  * &#8702; My first interaction mocks signified successful filter application via an awkward confirmation popup that disappeared after returning to the map. This need for a textual label to communicate the system status to the user indicated a need for clearer signifiers and a relocation of the functionality within the flow. To address this lack of visibility of system status, I added the applied filters to a scroll bar persistent at the top of the interface.
+  ![](./filter-apply.png)
+* __&rarr; Visual design evolution to a more dynamic color palette and removing unwanted visual associations__.
+  * &#8702; The visual design evolution was primarily characterized by a transformation to Android UI standards and a change in color palette. The deep pink color palette used initially ended up looking slightly pathological when applied to the heatmap, so I transitioned to a more visually dynamic color palette of vibrant blues and greens. This decision both eliminated unwanted visual associations and created a more dynamic contrast against the cool muted map background.
+  ![](./visual.png)
+* __&rarr; Lack of flexibility in choosing how to navigate__.
+  * &#8702; Added transportation options (driving, walking, biking, ridesharing) to the map once destination has been entered so that the user can select between the different options and see how the resulting route based on the type of transportation selected.
+  ![](./navigation-options.png)
 
 ## Takeaways
 This highly informed iterative design process supported by contextual inquiry, task analysis, user experience research, and studio reviews really taught me a lot about what it takes to design a highly effective interface optimized for tasks required by the target user.
