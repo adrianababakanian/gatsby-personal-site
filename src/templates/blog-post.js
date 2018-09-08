@@ -38,13 +38,6 @@ export const pageQuery = graphql`
                 }
             }
         }
-        another {
-            childImageSharp{
-                sizes(maxWidth: 1000) {
-                    ...GatsbyImageSharpSizes
-                }
-            }
-        }
       }
     }
   }

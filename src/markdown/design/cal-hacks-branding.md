@@ -3,15 +3,14 @@ path: "/design/cal-hacks-branding"
 title: "Cal Hacks Branding"
 date: "2018-07-12T17:12:33.962Z"
 featuredImage: ./scaled.png
-another: ./hackanile.png
 ---
 
 [Cal Hacks](https://calhacks.io) is a nonprofit organization composed of students passionate about fostering a culture of hacking, entrepreneurship, and social good via the empowerment of technology. Our claim to fame is throwing the world’s largest collegiate hackathon every fall. As our team’s designer, I utilize design as a tool for progressing the causes that inspire me.
 
 A cohesive visual identity defines the voice of an organization. The Cal Hacks brand was previously defined annual designs corresponding to each hackathon iteration. As we’ve matured from a startup-like environment into an established organization, our influence in the realm of technology extends beyond the space of hackathons into entrepreneurship, diversity, inclusivity, and beyond — thus rendering a cohesive branding identity crucial.
 
-![](./scaled.png)
-![](./hackanile.png)
+![Cal Hacks Logo Scaling](./scaled.png)
+![Cal Hacks Logo Text](./title.png)
 
 ## Brainstorming
 The process for this rebrand was guided by my desire to communicate illustratively the defining aspects of Cal Hacks — namely our grounding in technology as a means of empowerment and our proud roots at UC Berkeley.  
@@ -29,16 +28,16 @@ And thus we have our Hackanile — Berkeley’s beloved Campanile built out of a
 ## Color Palette
 A cohesive color palette inherently creates a unified visual identity. My choice of predominantly blue was mostly informed by the fact that we are UC Berkeley’s hackathon, and our school’s colors are proudly blue and gold. Although I made the decision to go with some form of blue, my first few iterations utilized a wide range of blues before I narrowed in on the slightly muted, monochrome palette of blues defining the final branding. This decision to use a monochrome palette is consistent with my motivation to rebrand Cal Hacks — monochromatic color definition inherently creates visual cohesion in the same way that a permanent brand creates image cohesion. As such, I chose the monochrome blue palette defined by saturated backgrounds to visually reinforce the Cal Hacks cohesive image.
 
-![](./colors.png)
+![Cal Hacks Monochrome Color Palette](./colors.png)
 
 As much as I love the unified-yet-poppy identity given by the monochrome blues, I also recognize the need to have access to more than one color in certain contexts. I thus made a palette of accent colors and defined some basic combinations to inform future color palette decisions.
 
-![](./full_colors.png)
+![Cal Hacks Extended Color Palette](./full_colors.png)
 
 ## Scalability & Sizing
 Since this logo is permanent, I wanted to ensure that there is no context in which it can’t be used. As such, I made three different versions of the logo, each for different size contexts. Detail in the circuitry is eliminated as the logo scales down, and external padding is added appropriately.
 
-![](./sizes.png)
+![Cal Hacks Logo Sizing](./sizes.png)
 
 ## Typography
 My choice of typefaces was informed by the logo itself. I chose [Abadi MT Condensed Extra Bold](https://docs.microsoft.com/en-us/typography/font-list/abadi-mt-condensed#abadi-mt-condensed-extra-bold) in all-caps as our main textual logo component, as well as for headers. It’s a blocky but slender typeface that marries well with the circuited-yet-sleek build of the Hackanile, mimicking the logo’s simultaneous visual slenderness and inherent hardware.
@@ -59,7 +58,7 @@ I used both of these assets myself when I made the [permanent Cal Hacks site](ht
 ## Brand Extensions
 The standardization of our visual image extended to my branding campaigns across our Cal Hacks initiatives. The purpose of the branding campaign is to add cohesion to our visual identity, and as such I built on the established style to create sub-logos integrated with the branding guidelines.
 
-![](./squad.png)
+![Cal Hacks Brand Extensions Squad](./squad.png)
 
 #### The Cal Hacks Fellowship
 We rolled out our new initiative for entrepreneurial hackers, the Cal Hacks Fellowship, during Cal Hacks 4.0 and mentored our first round of Fellows throughout the following spring. I wanted to create a standalone logo for the Fellowship that would still mesh well with its parent brand. As such, I developed the logo in conjunction with our Hackanile.
@@ -67,11 +66,11 @@ We rolled out our new initiative for entrepreneurial hackers, the Cal Hacks Fell
 My reasons for choosing a rocket were twofold — the launching of a rocket perfectly captures the spirit of ideational acceleration and incubation embraced by our fellowship, and it’s also the favorite emoji of Aakash, our fellowship program lead! I thus iterated on the rocket idea until resulting in the final version, a circuit-inspired rocketship matching in visual style with the Hackanile yet still able to serve as a logo on its own.
 
 
-![](./hackanile.png)
+![Cal Hacks Hackanile](./hackanile.png)
 
 #### CubStart
 CubStart is a beginner hacker program that helps make hackathons less intimidating and more accessible for everyone. We provide a mentorship program for team building, ideation, basic hackathon skills, and technical workshops for those with little or no CS experience to try out hackathons and coding.
 
 Seeing that CubStart encourages growth and development, I wanted to integrate an organic element into the program's logo. The final product is a plant growing out of a circuited building block.
 
-![](./cubstart.png)
+![Cal Hacks CubStart Logo](./cubstart.png)

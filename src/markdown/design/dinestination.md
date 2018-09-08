@@ -62,9 +62,9 @@ We investigated a series of task analysis questions in order to drive the develo
 
 Ultimately, after the contextual inquiry and task analysis processes we defined the following key tasks for our interface to be required to optimally perform:
 
-1. Find restaurants based on the user’s time and destination constraints.
-2. Filtering restaurant results by user preferences.
-3. Select a restaurant to navigate to from the heatmap based on restaurant details.
+* &rarr; Find restaurants based on the user’s time and destination constraints.
+* &rarr; Filtering restaurant results by user preferences.
+* &rarr; Select a restaurant to navigate to from the heatmap based on restaurant details.
 
 ## Competitive Analysis
 We performed in-depth analysis of both direct and indirect competitors to inform our understanding of the target user’s needs, gain familiarity with the existing market, and determine both strengths and points of improvement for existing solutions. The detailed results of our analysis can be found [here](https://paper.dropbox.com/doc/Contextual-Inquiry-Task-Analysis-Competitive-Analysis--ALuXAoZ6pRhPtNdlQ5wv3jLgAg-pgCTA8208BeAzDLTtF6G9)! We made an effort to include competitors that are not just Android applications — doing so allowed us to think outside of the box of mobile app development.  Competitors included Google Maps, Google Popular Times, Yelp, Nowait, Waitly, OpenTable, Soylent, Postmates, drive-through fast food, and Uber.
@@ -95,7 +95,7 @@ Our test method was primarily defined by choosing participants that defined a wi
 * &rarr; Did you expect the app to perform any actions that it didn’t?
 * &rarr; Are there any other tasks you would like to add to the app to make the process easier or more complete?
 
-Below is a summary of the UER results that informed the next stages of design iteration, both positive and negative. My solutions to these usability issues are detailed here! (in the high fidelity prototype section)
+Below is a summary of the UER results that informed the next stages of design iteration, both positive and negative. My solutions to these usability issues are detailed here in the high fidelity prototype section.
 
 * &rarr; Lack of clarity in the first step that should be taken — users almost universally clicked on the “find restaurants” button initially before entering an end destination.
 * &rarr; Dislike of the color scheme and visual design.

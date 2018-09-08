@@ -34,7 +34,7 @@ In short, the application generates restaurants along a navigatable route that m
 ## Mapping
 I've recently taken up a fascination with mapping interfaces, so my main implementation responsibility on this project was handling all map-related input, data, and queries.
 
-The interface enables user to select their desired mode of transit to the final destination, which is then passed as a &nbsp; ```DirectionsCriteria```&nbsp; to Mapbox.
+The interface enables user to select their desired mode of transit to the final destination, which is then passed as a &nbsp;```DirectionsCriteria```&nbsp; to Mapbox.
 
 ```java
 vBike.setOnClickListener(new View.OnClickListener() {
@@ -76,7 +76,7 @@ private void drawRoute() {
 
 Queried restaruants that satisy the user-input filters are rendered the UI as markers on the Mapbox data layer. This is handled in the ```addMarkers``` implementation.
 
-``` java
+```java
 private void addMarkers() {
     if (!ADDED_MARKERS) {
         List<Feature> features = new ArrayList<>();
@@ -109,3 +109,7 @@ private void addMarkers() {
     ADDED_MARKERS = Boolean.TRUE;
 }
 ```
+
+##Takeaways
+
+Implementing interfaces that I designed  is always a rewarding process for me as someone fascinated by the way in which user interaction complicates software. This project allowed me to interact with a wide range of variability, datasets, and external APIs &mdash; each of which is a complicating factor affecting the issues that the interface must take into consideration. I gained much programmatic and HCI maturity by implementing against this spectrum of external complexity to create and interface that abstracts away complexity for the user.
