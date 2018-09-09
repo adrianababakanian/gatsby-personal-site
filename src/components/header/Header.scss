@@ -46,10 +46,10 @@
       transition: background 0.2s ease-in-out;
 
       &:hover {
-        &.cycle { @include colorize(trans_cycle) }
-        &.matcha { @include colorize(trans_matcha) }
-        &.atomic { @include colorize(trans_atomic) }
-        &.sakura { @include colorize(trans_sakura) }
+        &.cycle { @include colorize(trans_cycle); color: get(atom) }
+        &.matcha { @include colorize(trans_matcha); color: get(atom) }
+        &.atomic { @include colorize(trans_atomic); color: get(atom) }
+        &.sakura { @include colorize(trans_sakura); color: get(atom) }
       }
     }
 
