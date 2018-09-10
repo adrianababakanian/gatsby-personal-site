@@ -37,11 +37,13 @@ We put in a lot of marketing effort in the months leading up to Cal Hacks, resul
 
 ![Cal Hacks 4.0 Welcome Countdown](./surf.png)
 
+![Cal Hacks 4.0 Sponsor Countdown](./sponsors.png)
+
 ![Cal Hacks 4.0 Food Countdown](./soylent.png)
 
 ## Takeaways
 
-Cal Hacks 4.0 was my first experience ideating, executing, & expanding a branding image spread to thousands of people. Cal Hacks is an immense part of the Berkeley CS community, so I never go a day on campus without seeing a student decked out in a 4.0 shirt I made or with a dd0ski sticker on thier laptop. I'm very thankful to have made a lasting impact in my (and other!) university's campus through my designs.
+Cal Hacks 4.0 was my first experience ideating, executing, & expanding a branding image spread that thousands of people interacted with. Cal Hacks is an immense part of the Berkeley CS community, so I never go a day on campus without seeing a student decked out in a 4.0 shirt or with a dd0ski sticker on their laptop. I'm very thankful to have made a lasting impact on my (and other!) university's campus through my designs.
 
 ![](./ch4_team.jpg)
 

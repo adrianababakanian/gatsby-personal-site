@@ -14,6 +14,18 @@
   overflow: hidden;
   border-bottom: none;
 
+  @media (max-width: 700px) {
+    height: 300px;
+  }
+
+  @media (max-width: 600px) {
+    height: 280px;
+  }
+
+  @media (max-width: 550px) {
+    height: 200px;
+  }
+
   &:hover {
     box-shadow: 0 2px 12px 2px get(shadow);
     .preview-hover {
@@ -42,5 +54,16 @@
     position: absolute;
     top: 0;
     left: 0;
+    @media (max-width: 700px) {
+      line-height: 300px;
+    }
+
+    @media (max-width: 600px) {
+      line-height: 280px;
+    }
+
+    @media (max-width: 550px) {
+      line-height: 200px;
+    }
   }
 }

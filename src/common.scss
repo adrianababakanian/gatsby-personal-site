@@ -51,6 +51,11 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   color: get(atom);
 
   @media (max-width: 700px) {
+    margin: 220px 40px;
+    width: calc(100vw - 80px);
+  }
+
+  @media (max-width: 500px) {
     margin: 220px 20px;
     width: calc(100vw - 40px);
   }
