@@ -2,7 +2,7 @@
 path: "/prototyping/mo"
 title: "Mo"
 date: "2018-04-12T17:12:33.962Z"
-featuredImage: ./mo.png
+featuredImage: ./ddoski_4.png
 ---
 
 As both an engineer and designer, prototyping for me is one of the most rewarding forms of art. In spring 2017, I took a course at Berkeley's [Jacobs Institute for Design Innovation](http://jacobsinstitute.berkeley.edu/our-space/) on prototyping and fabrication. My final project entailed designing, engineering, building, and programing a Bluetooth-controlled robot vehicle from scratch with the ultimate goal of navigating hands-free through a msystery obstacle course. I named the robot Mo &mdash; he's an agile tread chassis-based robot with some snazzy direction-based colored pixel animations!

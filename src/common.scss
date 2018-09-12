@@ -56,8 +56,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   }
 
   @media (max-width: 500px) {
-    margin: 220px 20px;
-    width: calc(100vw - 40px);
+    margin: 140px 40px;
   }
 
   code {
@@ -104,12 +103,23 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   h2 {
     font: 600 24px Lato;
     width: 476px;
+
+    @media (max-width: 700px) {
+      width: 100%;
+      font: 600 18px Lato;
+    }
   }
 
   h3 {
     font: 400 24px Lato;
     line-height: 46px;
     width: 476px;
+
+    @media (max-width: 700px) {
+      width: 100%;
+      font: 400 20px Lato;
+      line-height: 42px;
+    }
   }
 
   h4 {
