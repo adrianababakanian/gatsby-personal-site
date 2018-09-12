@@ -18,7 +18,7 @@ const Header = ({ siteTitle, links, style }) => (
         </div>
       </Link>
     ))}
-    <i className="fa fa-bars stretch"></i>
+    <div className='hamburger'>&#9776;</div>
   </div>
 )
 
