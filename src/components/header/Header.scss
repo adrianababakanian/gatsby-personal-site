@@ -74,6 +74,8 @@
     line-height: 39px;
     text-align: right;
     display: none;
+    z-index: 1001;
+    cursor: pointer;
     @media (max-width: 700px) {
       display: block;
     }
@@ -81,6 +83,41 @@
 
 }
 
-.mobile-header {
-  
+.mobile_header {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background: white;
+  position: absolute;
+  margin: 0;
+
+  .mobile-header-item {
+    padding: 20px 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font: 800 16px Lato;
+    text-decoration: none;
+    color: get("atom");
+
+    .mobile-header-item-content {
+      border-radius: 3px;
+      background: transparent;
+      padding: 4px 8px;
+      transition: background 0.2s ease-in-out;
+      display: inline-block;
+
+      &:hover {
+        &.cycle { @include colorize(trans_cycle); color: get(atom) }
+        &.matcha { @include colorize(trans_matcha); color: get(atom) }
+        &.atomic { @include colorize(trans_atomic); color: get(atom) }
+        &.sakura { @include colorize(trans_sakura); color: get(atom) }
+      }
+    }
+
+    &.cycle { @include font-colorize(cycle) }
+    &.matcha { @include font-colorize(matcha) }
+    &.atomic { @include font-colorize(atomic) }
+    &.sakura { @include font-colorize(sakura) }
+  }
 }
