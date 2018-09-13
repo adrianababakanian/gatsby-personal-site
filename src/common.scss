@@ -98,6 +98,9 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   h1 {
     font: 700 38px Lato;
     letter-spacing: 1px;
+    @media(max-width: 500px) {
+      font: 700 30px Lato;
+    }
   }
 
   h2 {
@@ -133,6 +136,9 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     font: 400 16px Lato;
     width: 600px;
     line-height: 30px;
+    @media (max-width: 700px) {
+      width: 100%;
+    }
   }
 
   .me-wrap {

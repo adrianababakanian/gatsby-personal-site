@@ -7,6 +7,7 @@ import './Header.scss'
 import logo from './../../assets/images/logo.svg';
 
 const Header = ({ siteTitle, links, style }) => (
+
   <div className="header" style={ style }>
     <Link to="/" className="logo"> <img src={logo}/> </Link>
     {links && links.map(link => (
@@ -20,6 +21,8 @@ const Header = ({ siteTitle, links, style }) => (
     ))}
     <div className='hamburger'>&#9776;</div>
   </div>
+
+  
 )
 
 export default Header
