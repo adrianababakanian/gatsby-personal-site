@@ -95,9 +95,17 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     }
   }
 
+  .about {
+    a {
+      background-color: get(x_trans_sakura);
+      &:hover { background-color: get(trans_sakura); }
+    }
+  }
+
   h1 {
     font: 700 38px Lato;
     letter-spacing: 1px;
+    max-width: 400px;
     @media(max-width: 500px) {
       font: 700 30px Lato;
     }
@@ -116,7 +124,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   h3 {
     font: 400 24px Lato;
     line-height: 46px;
-    width: 476px;
+    width: 500px;
 
     @media (max-width: 500px) {
       width: 100%;
@@ -126,8 +134,8 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   }
 
   h4 {
-    font: 400 20px Lato;
-    line-height: 38px;
+    font: 400 22px Lato;
+    line-height: 48px;
     width: 100%;
     margin: 20px 0;
   }
@@ -168,5 +176,10 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
       transition: 0.2s;
       box-shadow: $deep-shadow;
     }
+  }
+
+  .floater {
+    float: left;
+    max-width: 400px;
   }
 }

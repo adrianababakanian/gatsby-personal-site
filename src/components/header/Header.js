@@ -6,8 +6,6 @@ import Emphasis from './../emphasis/Emphasis'
 import './Header.scss'
 import logo from './../../assets/images/logo.svg';
 
-// ({ siteTitle, links, style }) =>
-
 class Header extends React.Component {
 
   constructor(props) {

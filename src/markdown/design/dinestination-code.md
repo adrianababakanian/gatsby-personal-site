@@ -5,15 +5,13 @@ date: "2018-04-12T17:12:33.962Z"
 featuredImage: ./dinestination.png
 ---
 
-[CS 160](https://www2.eecs.berkeley.edu/Courses/CS160/) is UC Berkeley’s course in User Interface Design & Development. I took the course in Spring 2018 because of my passion for interaction-driven engineering. The class was divided into teams which each developed an Android application from the ground up, starting with brainstorming and then moving through the iterative design process of sketching, prototyping, UER development, user testing, and production. I enjoyed CS 160 so much that I am now a GSI on the course staff for Fall 2018!
+[CS 160](https://www2.eecs.berkeley.edu/Courses/CS160/) is UC Berkeley’s course in User Interface Design & Development. I took the course in Spring 2018 because of my passion for interaction-driven engineering. The class divided into teams which each developed an Android application from the ground up, starting with brainstorming and then moving through the iterative design process of sketching, prototyping, UER development, user testing, and production. I enjoyed CS 160 so much that I am now a GSI on the course staff for Fall 2018!
 
-My team developed an Android app called Dinestination, an application that determines the best place for a user to eat based on time constraints and target destination. Feel free to check out our [source code](https://github.com/adrianababakanian/busybears) and [final project video](https://github.com/adrianababakanian/busybears)!
+My team developed Dinestination, an Android application that determines the best place for a user to eat based on time constraints and target destination. Take a look at our [source code](https://github.com/adrianababakanian/busybears) and [final project video](https://youtu.be/id0EGZajkS4) for a robust synthesis of each stage of the process.
 
 ![](dinestination.png)
 
 In this section I focus on detailing my technical development process behind the app's implementation. Please find details about my iterative design process, informed visual decisions, and user experience research under my [design documentation](localhost:8000/design/dinestination) for the project.
-
-detailing my design process behind the visual interface development. For technical details regarding my implementation process, please see the programming section of my site here!
 
 ## Motivation
 Dinestination aims to solve the on-the-go user's need of finding a place to eat along the way to a particular destination under a time constraint. Despite the robustness of existing mapping applications and restaurant databases, currently no single interface exists for entering a location, time to be there, and an optional set of filters to generate a route and route-optimal restaurants that get the user to their final destination on time. As such, we took on the challenge of combining an array of APIs into a single, intuitive, and flexible interface unifying the existing fragmented workflow across many apps and queries.
