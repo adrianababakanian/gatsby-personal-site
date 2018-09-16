@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 $colors: (
-  cycle: #93D9FF,
-  matcha: #B0E695,
-  atomic: #F9886C,
-  sakura: #EAD2DC,
-  atom: #253044,
+  cycle: unquote('#93D9FF'),
+  matcha: unquote('#B0E695'),
+  atomic: unquote('#F9886C'),
+  sakura: unquote('#EAD2DC'),
+  atom: unquote('#253044'),
   shadow: rgba(0, 0, 0, 0.14),
   deep-shadow: rgba(0, 0, 0, 0.18),
 
-  trans_cycle: #93D9FFCC,
-  trans_matcha: #B0E695CC,
-  trans_atomic: #F9886CCC,
-  trans_sakura: #EAD2DCCC,
+  trans_cycle: unquote('#93D9FFCC'),
+  trans_matcha: unquote('#B0E695CC'),
+  trans_atomic: unquote('#F9886CCC'),
+  trans_sakura: unquote('#EAD2DCCC'),
 
-  x_trans_cycle: #93D9FF99,
-  x_trans_matcha: #B0E69599,
-  x_trans_atomic: #F9886C99,
-  x_trans_sakura: #EAD2DC99
+  x_trans_cycle: unquote('#93D9FF99'),
+  x_trans_matcha: unquote('#B0E69599'),
+  x_trans_atomic: unquote('#F9886C99'),
+  x_trans_sakura: unquote('#EAD2DC99')
 );
 
 $shadow: 0 2px 12px 2px get(shadow);
