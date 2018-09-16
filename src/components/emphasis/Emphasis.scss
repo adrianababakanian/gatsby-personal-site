@@ -1,5 +1,10 @@
 @import './../../common.scss';
 
+a {
+  border-bottom: none;
+  text-decoration: none;
+}
+
 .em {
   border-bottom: 3px solid #ffffff00;
   position: relative;
@@ -7,7 +12,10 @@
   transition: border-bottom 0.2s ease-in-out;
   border-radius: 4px;
   transition: background 0.2s ease-in-out;
+  background: none;
+  border-bottom: none;
   cursor: pointer;
+  border-bottom-color: transparent;
 
   &.cycle { @include colorize(x_trans_cycle) }
   &.matcha { @include colorize(x_trans_matcha) }
@@ -37,6 +45,8 @@
     left: -1%;
     bottom: -3px;
     transition: 0.2s ease-in-out;
+    border-bottom: none;
+    text-decoration: none;
 
     &.cycle { @include colorize(cycle) }
     &.matcha { @include colorize(matcha) }
@@ -52,10 +62,10 @@
   }
 
   &:hover {
-    &.cycle { @include bottom-colorize(cycle) }
-    &.matcha { @include bottom-colorize(matcha) }
-    &.atomic { @include bottom-colorize(atomic) }
-    &.sakura { @include bottom-colorize(sakura) }
+    // &.cycle { @include bottom-colorize(cycle) }
+    // &.matcha { @include bottom-colorize(matcha) }
+    // &.atomic { @include bottom-colorize(atomic) }
+    // &.sakura { @include bottom-colorize(sakura) }
 
     .highlight {
       height: 118%;

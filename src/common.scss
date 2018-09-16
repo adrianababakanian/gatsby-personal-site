@@ -83,6 +83,8 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
       transition: background-color 0.2s ease-in-out;
       padding: 2px 5px;
       border-radius: 4px;
+      border-bottom: none;
+      
 
       &.preview {
         border-radius: 8px;

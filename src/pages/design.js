@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
+import Img from 'gatsby-image'
 import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
 
@@ -28,7 +29,7 @@ class DesignIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <img src={node.fields.featuredImage}/>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
           )
@@ -60,6 +61,13 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
+            # featuredImage {
+            #     childImageSharp{
+            #         sizes(maxWidth: 630) {
+            #             ...GatsbyImageSharpSizes
+            #         }
+            #     }
+            # }
           }
         }
       }
