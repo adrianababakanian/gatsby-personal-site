@@ -5,10 +5,12 @@ featuredImage: ./doodles.png
 tags: ["design"]
 ---
 
-![](./doodles.png)
+Some illustrations that I've made just for fun.
 
-![](./come.png)
+![Desktop Essentials](./assets/doodles.png)
 
-![](./berkeley.png)
+![Come and Create](./assets/come.png)
 
-![](./armenian.png)
+![Berkeley Buildings](./assets/berkeley.png)
+
+![Illustrated Map of Europe](./assets/armenian.png)
