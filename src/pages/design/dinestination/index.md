@@ -9,7 +9,7 @@ tags: ["design"]
 
 My team developed an Android app called Dinestination, an application that determines the best place for a user to eat based on time constraints and target destination. Feel free to check out our [source code](https://github.com/adrianababakanian/busybears) and [final project video](https://github.com/adrianababakanian/busybears)!
 
-![](./dinestination.png)
+![](./assets/dinestination.png)
 
 In this section I focus on detailing my design process behind the visual interface development. For technical details regarding my implementation process, please see the programming section of my site here!
 
@@ -17,7 +17,7 @@ In this section I focus on detailing my design process behind the visual interfa
 
 Each semester of CS 160 is defined by a theme that drives the types of applications developed. Spring 2018’s theme was “integrating the digital and physical worlds.” Our first task as a team was to brainstorm a minimum of fifty ideas for apps that would meet this criteria. We took inspiration from [IDEO](https://www.ideo.com/)'s rules of brainstorming and thus ended up with a massive range of ideas in the span of just an hour.
 
-![](brainstorming.png)
+![](./assets/brainstorming.png)
 
 After detailing each of these ideas by enumerating their goals and target users, we chose 10 that we liked the most and created rough sketches to capture the desired interaction. We also performed competitive analysis to ensure that we were not duplicating something that already existed in the user’s market. Check out the results of our initial brainstorming [here](https://paper.dropbox.com/doc/CS-160-Brainstorm--ALu8YfA5ho9IG4RRFwFbbqulAg-iwbtVyGxBnCmgQGNdAtDM)!
 
@@ -75,13 +75,13 @@ The aforementioned competitors have “solved” the problems of eating in a hur
 I started the low fidelity prototyping process by storyboarding task scenarios of varying levels of complexity. Each of the storyboards below is accompanied by initial mocks of the screens required to perform the tasks in the storyboard.
 
 * &rarr; Easy Task: Filtering restaurant results
-![](./easy.png)
+![](./assets/easy.png)
 * &rarr; Moderate Task: Set time & destination to find restaurant
-![](./medium.png)
+![](./assets/medium.png)
 * &rarr; Difficult task: Analyze restaurant details
-![](./hard.png)
+![](./assets/hard.png)
 
-I then made an interactive Invision prototype, which we put together into a ![video](https://www.dropbox.com/s/20s9httalqkfodu/160Vid.mp4?dl=0) showcasing the prototype performing in its target use case.
+I then made an interactive Invision prototype, which we put together into a [video](https://www.dropbox.com/s/20s9httalqkfodu/160Vid.mp4?dl=0) showcasing the prototype performing in its target use case.
 
 ## User Experience Research
 I conducted user experience research on an interactive Invision prototype of the low fidelity mocks in order to inform the next stages of my design process. This research allowed me to identify usability impediments and disparities between the intended interaction flow and the way in which target users interacted with the prototype.
@@ -114,23 +114,30 @@ The comparisons below show the low-fidelity screens on the left, and screenshots
 
 * __&rarr; Misleading signifiers removed from interface__.
   * &#8702; I removed the “find restaurants” button from the main screen and then display it conditionally only once the user has input their required logistics. This decision is consistent both with the aforementioned user research results and Hicks’ Law, which states that the time it takes for a user to make a decision increases with the number of options presented to said user.
-  ![](./signifiers.png)
+
+  ![](./assets/signifiers.png)
 * __&rarr; Resolved lack of clarity in how to navigate to desired restaurant once determined__.
   * &#8702; I initially used a check mark icon as a means of “selecting” a restaurant to navigate to. However, users were not able to intuitively understand this visually, so I changed to the standard Google directions icon. This change both increased familiarity and conformed to standard Android UI patterns.
-  ![](./navigation.png)
+
+  ![](./assets/navigation.png)
 * __&rarr; Filter button moved to be more integrated into the main interaction__.
   * &#8702; In the low fidelity prototype, applying preference filters was entirely removed from the process of inputing the target destination, and several users did not even notice the filtering functionality. As such, I integrated the filter button into the destination input section so as to connect the two processes. I also changed the button from an icon to a text button to conform with Android UI patterns, and changed the filter icon to a slider bar similar to the one used by Yelp in order to make it recognizable to the target user.
-  ![](./filters-1.png)
-  ![](./filters-2.png)
+
+  ![](./assets/filters-1.png)
+
+  ![](./assets/filters-2.png)
 * __&rarr; Added signifiers to visually reinforce successful filter application__.
   * &#8702; My first interaction mocks signified successful filter application via an awkward confirmation popup that disappeared after returning to the map. This need for a textual label to communicate the system status to the user indicated a need for clearer signifiers and a relocation of the functionality within the flow. To address this lack of visibility of system status, I added the applied filters to a scroll bar persistent at the top of the interface.
-  ![](./filter-apply.png)
+
+  ![](./assets/filter-apply.png)
 * __&rarr; Visual design evolution to a more dynamic color palette and removing unwanted visual associations__.
   * &#8702; The visual design evolution was primarily characterized by a transformation to Android UI standards and a change in color palette. The deep pink color palette used initially ended up looking slightly pathological when applied to the heatmap, so I transitioned to a more visually dynamic color palette of vibrant blues and greens. This decision both eliminated unwanted visual associations and created a more dynamic contrast against the cool muted map background.
-  ![](./visual.png)
+
+  ![](./assets/visual.png)
 * __&rarr; Lack of flexibility in choosing how to navigate__.
   * &#8702; Added transportation options (driving, walking, biking, ridesharing) to the map once destination has been entered so that the user can select between the different options and see how the resulting route based on the type of transportation selected.
-  ![](./navigation-options.png)
+
+  ![](./assets/navigation-options.png)
 
 ## Takeaways
 This highly informed iterative design process supported by contextual inquiry, task analysis, user experience research, and studio reviews really taught me a lot about what it takes to design a highly effective interface optimized for tasks required by the target user.
