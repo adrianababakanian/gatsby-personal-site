@@ -33,6 +33,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
 
 @mixin colorize($color) {
   background: get($color);
+  background-color: get($color);
 }
 
 @mixin bottom-colorize($color) {
@@ -84,7 +85,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
       padding: 2px 5px;
       border-radius: 4px;
       border-bottom: none;
-      
+
 
       &.preview {
         border-radius: 8px;

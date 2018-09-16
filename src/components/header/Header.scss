@@ -44,6 +44,7 @@
     text-decoration: none;
     color: get("atom");
     padding: 6px 8px;
+    border-bottom-color: transparent;
 
     @media (max-width: 700px) {
       display: none;
@@ -54,6 +55,7 @@
       background: transparent;
       padding: 4px 8px;
       transition: background 0.2s ease-in-out;
+      border-bottom-color: transparent;
 
       &:hover {
         &.cycle { @include colorize(trans_cycle); color: get(atom) }
