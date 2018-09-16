@@ -98,6 +98,12 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     }
   }
 
+  a {
+    &.green {
+      background: green;
+    }
+  }
+
   .about {
     a {
       background-color: get(x_trans_sakura);
