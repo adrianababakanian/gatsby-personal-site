@@ -36,4 +36,4 @@ Since my branding of Cal Hacks was primarily motivated illustratively, I created
 As such, I ended up at the final split-screen implementation. The left half serves to reinforce the visual brand, while the high-contrast righthand panel communicates the textual content.
 
 ## Implementation Logic
-For each of the content pages, I separated the screen into a title and content half. This decision was primarily informed by my desire to maintain the visual design scheme established by the permanent branding while simultaneously addressing the usability results for my user testing on the color palette
+For each of the content pages, I separated the screen into a title and content half. This decision was primarily informed by my desire to maintain the visual design scheme established by the permanent branding while simultaneously addressing the usability results for my user testing on the color palette.

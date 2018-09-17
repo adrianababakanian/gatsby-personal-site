@@ -5,10 +5,10 @@ import './../common.scss';
 
 const AboutPage = () => {
   return (
-    <div classNameName="about">
-      <div classNameName="me-wrap">
+    <div className="about">
+      <div className="me-wrap">
         {/* <img src={me} classNameName="me"/> */}
-        <div classNameName="overlay"/>
+        <div className="overlay"/>
       </div>
       <h1>
         Hi! ✨ I'm Adriana Babakanian.

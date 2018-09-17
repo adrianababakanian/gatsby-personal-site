@@ -19,7 +19,7 @@ Every iteration of Cal Hacks gets dressed in a new bear named dd0ski. dd0ski is 
 Cal Hacks 4.0 was marketed to tens of thousands of people around the country. We ultimately ended up hosting over 2000 participants at
 <a href="http://www.californiamemorialstadium.com/" target="_blank" class="cycle">California Memorial Stadium</a>. Badges, shirts, wristbands, banners, posters, maps, flyers, Snapchat filters, countdowns, decals, and more were all part of the agenda &mdash; below is a complialtion of some of the final products.
 
-![Cal Hacks 4.0 Road Trip](./assets/roadtrip.png)
+![Cal Hacks 4.0 Road Trip](./assets/road_trip.png)
 
 ## Products
 
@@ -45,6 +45,12 @@ We put in a lot of marketing effort in the months leading up to Cal Hacks, resul
 
 ![Cal Hacks 4.0 Food Countdown](./assets/soylent.png)
 
+## Design Implications
+
+Designing for such a large-scale event gave me the opportunity to make design decisions affecting logistics, organization, accessibility, and more. I designed maps for venue accessibility, organized sign design & placement to optimize the hacker and sponsor check-in process, and created badge checklists to streamline snacks & meals.
+
+These design decisions affected more than just the visual branding of the hackathon &mdash; they guided the logistics of a 2000+ person event held across five stories of a collegiate football stadium. This experience tangibly exemplifies the power of good design in organization.
+
 ## Takeaways
 
 Cal Hacks 4.0 was my first experience ideating, executing, & expanding a branding image that thousands of people interacted with. Cal Hacks is an immense part of the Berkeley CS community, so I never go a day on campus without seeing a student decked out in a 4.0 shirt or with a dd0ski sticker on their laptop. I'm very thankful to have made a lasting impact on my (and other!) university's campus through my designs.
@@ -56,5 +62,3 @@ Cal Hacks 4.0 was my first experience ideating, executing, & expanding a brandin
 ![MLH Photobooth](./assets/mlh.jpg)
 
 ![Photobooth background](./assets/background.png)
-
-![A very tired me](./assets/me.png)

@@ -33,6 +33,7 @@
     stroke: get(atom);
     margin-left: 30px;
     margin-top: 4px;
+    transform: translateX(5px);
 
     @media (max-width: 700px) {
       margin-left: 0;

@@ -44,6 +44,14 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   color: get($color);
 }
 
+img {
+  transform: translateX(-5px);
+}
+
+.gatsby-resp-image-background-image {
+  background-image: none;
+}
+
 .container {
   width: 600px;
   height: auto;
@@ -131,6 +139,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   h2 {
     font: 600 24px Lato;
     width: 476px;
+    margin: 50px 0 20px 0;
 
     @media (max-width: 500px) {
       width: 100%;
@@ -161,6 +170,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     font: 400 16px Lato;
     width: 600px;
     line-height: 30px;
+    margin: 25px 0;
     @media (max-width: 700px) {
       width: 100%;
     }

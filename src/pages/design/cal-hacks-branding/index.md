@@ -97,7 +97,7 @@ Seeing that CubStart encourages growth and development, I wanted to integrate an
 #### Cal Hacks 5.0
 What better time to solidify our new brand than at our fifth-year-anniversary hackathon! The 5.0 ddoski is a merge of the traditionally huggable bear logo expected at each Cal Hacks and the new circuited branding identity established by the Hackanile.
 
-![Cal Hacks 5.0 dd0ski](./ddoski_5_square.png)
+![Cal Hacks 5.0 dd0ski](./assets/ddoski_5_square.png)
 
 Traditionally, the dd0ski logo has been just a bear head. When I made the Cal Hacks 4.0 dd0ski, for example, the rest of the body was just an afterthought. For this iteration dd0ski's body was integrated intentionally from the start, since I wanted to both mimic the shape of the Hackanile as well as implment my vision of a full-fledged robot dd0ski.
 
@@ -107,8 +107,10 @@ However, I still made an bust-only version of dd0ski for smaller contexts such a
 
 I went through many, many iterations to end up at this robot-gummy bear hybrid. My initial iterations attempted to mirror the structure of the Hackanile exactly &mdash; resulting in a rectangular and elongated bear that was not well-received from my team, who were expecting the teddy-bear-like dd0ski that they've come to know and love.
 
-![Cal Hacks 5.0 Rectangular dd0ski](./ch_5_1.png)
+![Cal Hacks 5.0 Rectangular dd0ski](./assets/ch_5_1.png)
 
 As such, I embarked on a long sequence of iterations that can be summarized by becoming progressively shorter, rounder, and cuter. I am happy with the final product's mesh of the new branding identity and the traditional image that Cal Hacks has as an inclusive hackathon that welcomes all.
 
-![Cal Hacks 5.0 dd0ski Iterations](./ch_5_iterations.png)
+![Cal Hacks 5.0 dd0ski Iterations](./assets/ch_5_iterations.png)
+
+![Cal Hacks 5.0](./assets/ddoski_5.png)
