@@ -5,7 +5,7 @@ featuredImage: ./ch-site.png
 tags: ["code"]
 ---
 
-A permanent landing page for an organization establishes both consistency in visual identity and a platform for showcasing its mission. As the world's largest collegiate hackathon, [Cal Hacks](https:calhacks.io) consistently is working to drive initiatives, partner with other teams & companies, and make an impact in the world of tech. As such, I developed a permanent site to go along with the [Cal Hacks brand]() I created.
+A permanent landing page for an organization establishes both consistency in visual identity and a platform for showcasing its mission. As the world's largest collegiate hackathon, <a href="https://calhacks.io" target="_blank" class="matcha">Cal Hacks</a> consistently is working to drive initiatives, partner with other teams & companies, and make an impact in the world of tech. As such, I developed a permanent site to go along with the [Cal Hacks brand]() I created.
 
 ![Cal Hacks Site](./ch-site.png)
 

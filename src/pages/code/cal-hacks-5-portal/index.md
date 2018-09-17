@@ -5,4 +5,5 @@ featuredImage: ./map.png
 tags: ["code"]
 ---
 
-The [landing page for Cal Hacks 5.0](https://2018.calhacks.io) is the entrypoint to Cal Hacks's in-house hacker application portal, sponsor information, live scheduling site, and more. I centered the design and implementation around a floaty and suspended theme.
+The <a href="https://2018.calhacks.io" target="_blank" class="matcha">landing page for Cal Hacks 5.0</a>
+is the entry point to Cal Hacks's in-house hacker application portal, sponsor information, live scheduling site, and more. I centered the design and implementation around a floaty and suspended theme.
