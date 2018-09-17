@@ -14,7 +14,7 @@ and
 <a href="https://youtu.be/id0EGZajkS4" target="_blank" class="matcha">final project video</a>
 for a robust synthesis of each stage of the process.
 
-![](dinestination.png)
+![Dinestination](./assets/dinestination.png)
 
 In this section I focus on detailing my technical development process behind the app's implementation. Please find details about my iterative design process, informed visual decisions, and user experience research under my [design documentation](localhost:8000/design/dinestination) for the project.
 
@@ -48,16 +48,16 @@ I've recently taken up a fascination with mapping interfaces, so my main impleme
 
 The interface enables user to select their desired mode of transit to the final destination, which is then passed as a &nbsp;```DirectionsCriteria```&nbsp; to Mapbox.
 
-
 ```java
+
 vBike.setOnClickListener(new View.OnClickListener() {
-  @Override
-  public void onClick(View view) {
-      PROFILE_TYPE = DirectionsCriteria.PROFILE_CYCLING;
-      findRestaurantsButton.setVisibility(View.VISIBLE);
-      drawRoute();
-  }
-});
+    @Override
+    public void onClick(View view) {
+        PROFILE_TYPE = DirectionsCriteria.PROFILE_CYCLING;
+        findRestaurantsButton.setVisibility(View.VISIBLE);
+        drawRoute();
+    }
+  });
 ```
 
 The ```drawRoute``` function handles generating and rendering the route to the interface based on the user input criteria.
@@ -84,7 +84,7 @@ private void drawRoute() {
     mapboxMap.easeCamera(CameraUpdateFactory.newLatLngBounds(
       latLngBounds, 200, 600, 200, 400), 2000
     );
-}
+  }
 ```
 
 Queried restaruants that satisy the user-input filters are rendered the UI as markers on the Mapbox data layer. This is handled in the ```addMarkers``` implementation.
@@ -120,7 +120,7 @@ private void addMarkers() {
     }
 
     ADDED_MARKERS = Boolean.TRUE;
-}
+  }
 ```
 
 ##Takeaways
