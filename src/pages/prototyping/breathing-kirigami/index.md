@@ -17,5 +17,6 @@ I first experimented with different forms of kirigami to find a shape most condu
 
 To allow for the breathing motion, I threaded the edges of the kirigami together and then attached the ends to a motor. This motor was controlled by an Ardunio Uno programmed to simply provide and release tension cyclically, thus resulting in a breathing motion of the paper folds.
 
-
 ![Threaded kirigami](./assets/thread.png)
+
+![Arduino with kirigami](./assets/origami.png)

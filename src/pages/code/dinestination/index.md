@@ -48,6 +48,7 @@ I've recently taken up a fascination with mapping interfaces, so my main impleme
 
 The interface enables user to select their desired mode of transit to the final destination, which is then passed as a &nbsp;```DirectionsCriteria```&nbsp; to Mapbox.
 
+
 ```java
 
 vBike.setOnClickListener(new View.OnClickListener() {
