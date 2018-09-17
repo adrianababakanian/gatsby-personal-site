@@ -23,7 +23,7 @@ class PrototypingIndex extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <Preview key={node.id} project={node} color="matcha">
+              <Preview key={node.id} project={node} color="atomic">
               </Preview>
             </div>
           )

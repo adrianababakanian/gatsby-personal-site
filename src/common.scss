@@ -53,7 +53,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
 
   @media (max-width: 700px) {
     margin: 220px 40px;
-    width: calc(100vw - 80px);
+    width: calc(100vw - 90px);
   }
 
   @media (max-width: 500px) {
@@ -99,9 +99,10 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   }
 
   a {
-    &.green {
-      background: green;
-    }
+    &.cycle { @include colorize(cycle) }
+    &.matcha { @include colorize(matcha) }
+    &.atomic { @include colorize(atomic) }
+    &.sakura { @include colorize(sakura) }
   }
 
   .about {

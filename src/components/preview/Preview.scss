@@ -20,6 +20,7 @@
   &.sakura { @include colorize(sakura) }
 
   @media (max-width: 700px) {
+    width: calc(100% - 10px);
     height: 300px;
   }
 

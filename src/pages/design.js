@@ -7,6 +7,8 @@ import Img from 'gatsby-image'
 
 import Preview from './../components/preview/Preview'
 
+import './../common.scss'
+
 class DesignIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
