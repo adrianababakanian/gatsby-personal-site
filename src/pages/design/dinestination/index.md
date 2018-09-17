@@ -5,9 +5,10 @@ featuredImage: ./dinestination.png
 tags: ["design"]
 ---
 
-[CS 160](https://www2.eecs.berkeley.edu/Courses/CS160/) is UC Berkeley’s course in User Interface Design & Development. I took the course in Spring 2018 because of my passion for interaction-driven engineering. The class was divided into teams which each developed an Android application from the ground up, starting with brainstorming and then moving through the iterative design process of sketching, prototyping, UER development, user testing, and production. I enjoyed CS 160 so much that I am now a GSI on the course staff for Fall 2018!
+<a href="https://www2.eecs.berkeley.edu/Courses/CS160/" target="_blank" class="cycle">CS 160</a>
+is UC Berkeley’s course in User Interface Design & Development. I took the course in Spring 2018 because of my passion for interaction-driven engineering. The class was divided into teams which each developed an Android application from the ground up, starting with brainstorming and then moving through the iterative design process of sketching, prototyping, UER development, user testing, and production. I enjoyed CS 160 so much that I am now a GSI on the course staff for Fall 2018!
 
-My team developed an Android app called Dinestination, an application that determines the best place for a user to eat based on time constraints and target destination. Feel free to check out our [source code](https://github.com/adrianababakanian/busybears) and [final project video](https://github.com/adrianababakanian/busybears)!
+My team developed an Android app called Dinestination, an application that determines the best place for a user to eat based on time constraints and target destination. Feel free to check out our <a href="https://github.com/adrianababakanian/busybears" target="_blank" class="cycle">source code</a> and <a href="https://youtu.be/id0EGZajkS4" target="_blank" class="cycle">final project video</a>!
 
 ![](./assets/dinestination.png)
 
@@ -15,11 +16,12 @@ In this section I focus on detailing my design process behind the visual interfa
 
 ## Brainstorming
 
-Each semester of CS 160 is defined by a theme that drives the types of applications developed. Spring 2018’s theme was “integrating the digital and physical worlds.” Our first task as a team was to brainstorm a minimum of fifty ideas for apps that would meet this criteria. We took inspiration from [IDEO](https://www.ideo.com/)'s rules of brainstorming and thus ended up with a massive range of ideas in the span of just an hour.
+Each semester of CS 160 is defined by a theme that drives the types of applications developed. Spring 2018’s theme was “integrating the digital and physical worlds.” Our first task as a team was to brainstorm a minimum of fifty ideas for apps that would meet this criteria. We took inspiration from
+<a href="https://www.ideo.com/" target="_blank" class="cycle">IDEO</a>'s rules of brainstorming and thus ended up with a massive range of ideas in the span of just an hour.
 
 ![](./assets/brainstorming.png)
 
-After detailing each of these ideas by enumerating their goals and target users, we chose 10 that we liked the most and created rough sketches to capture the desired interaction. We also performed competitive analysis to ensure that we were not duplicating something that already existed in the user’s market. Check out the results of our initial brainstorming [here](https://paper.dropbox.com/doc/CS-160-Brainstorm--ALu8YfA5ho9IG4RRFwFbbqulAg-iwbtVyGxBnCmgQGNdAtDM)!
+After detailing each of these ideas by enumerating their goals and target users, we chose 10 that we liked the most and created rough sketches to capture the desired interaction. We also performed competitive analysis to ensure that we were not duplicating something that already existed in the user’s market. Take a look at the <a href="https://paper.dropbox.com/doc/CS-160-Brainstorm--ALu8YfA5ho9IG4RRFwFbbqulAg-iwbtVyGxBnCmgQGNdAtDM" target="_blank" class="cycle">results of our initial brainstorming</a>!
 
 ## Problem & Solution Overview
 
@@ -67,7 +69,7 @@ Ultimately, after the contextual inquiry and task analysis processes we defined 
 * &rarr; Select a restaurant to navigate to from the heatmap based on restaurant details.
 
 ## Competitive Analysis
-We performed in-depth analysis of both direct and indirect competitors to inform our understanding of the target user’s needs, gain familiarity with the existing market, and determine both strengths and points of improvement for existing solutions. The detailed results of our analysis can be found [here](https://paper.dropbox.com/doc/Contextual-Inquiry-Task-Analysis-Competitive-Analysis--ALuXAoZ6pRhPtNdlQ5wv3jLgAg-pgCTA8208BeAzDLTtF6G9)! We made an effort to include competitors that are not just Android applications — doing so allowed us to think outside of the box of mobile app development.  Competitors included Google Maps, Google Popular Times, Yelp, Nowait, Waitly, OpenTable, Soylent, Postmates, drive-through fast food, and Uber.
+We performed in-depth analysis of both direct and indirect competitors to inform our understanding of the target user’s needs, gain familiarity with the existing market, and determine both strengths and points of improvement for existing solutions. Take a look at the <a href="https://paper.dropbox.com/doc/Contextual-Inquiry-Task-Analysis-Competitive-Analysis--ALuXAoZ6pRhPtNdlQ5wv3jLgAg-pgCTA8208BeAzDLTtF6G9/" target="_blank" class="cycle">detailed results of our analysis</a>! We made an effort to include competitors that are not just Android applications — doing so allowed us to think outside of the box of mobile app development.  Competitors included Google Maps, Google Popular Times, Yelp, Nowait, Waitly, OpenTable, Soylent, Postmates, drive-through fast food, and Uber.
 
 The aforementioned competitors have “solved” the problems of eating in a hurry, getting to a destination, and finding nearby restaurants individually, but none of them compile this information effectively.  Most of our interviewees currently use a combination of several applications to achieve this task (e.g. Google Maps, Nowait, and Yelp), and even then, they aren’t getting the added features of incorporating a destination arrival time into the equation, or coordinating take-out.
 
@@ -81,7 +83,7 @@ I started the low fidelity prototyping process by storyboarding task scenarios o
 * &rarr; Difficult task: Analyze restaurant details
 ![](./assets/hard.png)
 
-I then made an interactive Invision prototype, which we put together into a [video](https://www.dropbox.com/s/20s9httalqkfodu/160Vid.mp4?dl=0) showcasing the prototype performing in its target use case.
+I then made an interactive Invision prototype, which we put together into a <a href="https://www.dropbox.com/s/20s9httalqkfodu/160Vid.mp4?dl=0" target="_blank" class="cycle">video</a> showcasing the prototype performing in its target use case.
 
 ## User Experience Research
 I conducted user experience research on an interactive Invision prototype of the low fidelity mocks in order to inform the next stages of my design process. This research allowed me to identify usability impediments and disparities between the intended interaction flow and the way in which target users interacted with the prototype.
@@ -106,7 +108,9 @@ Below is a summary of the UER results that informed the next stages of design it
 * &rarr; Unexpected behavior of defaulting to ridesharing (Uber) when selecting the “Route me” button
 
 ## High Fidelity Prototype
-My iterations from low fidelity to high fidelity prototype were informed by the results of my user experience research as detailed above. Priority was assigned to re-designs that minimized the user’s gulfs of execution and evaluation — that is, iterating upon the design in order to match the user’s expectations of how the system should respond to their interactions. You can check out the evolution points below, our [mid-semester critique slide deck](https://docs.google.com/presentation/d/1wGbCuoasUhY5VAoaSJaGSB7ZcSgSKTjhLn_0XNrSA-4/edit) and the [finalized Invision prototype](https://projects.invisionapp.com/share/WJG4MRC5FN6#/screens/284576440_Main_Screen)!
+My iterations from low fidelity to high fidelity prototype were informed by the results of my user experience research as detailed above. Priority was assigned to re-designs that minimized the user’s gulfs of execution and evaluation — that is, iterating upon the design in order to match the user’s expectations of how the system should respond to their interactions. You can check out the evolution points below, our
+<a href="https://docs.google.com/presentation/d/1wGbCuoasUhY5VAoaSJaGSB7ZcSgSKTjhLn_0XNrSA-4/edit" target="_blank" class="cycle">mid-semester critique slide deck</a> and the
+<a href="https://projects.invisionapp.com/share/WJG4MRC5FN6#/screens/284576440_Main_Screen" target="_blank" class="cycle">finalized Invision prototype</a>!
 
 The comparisons below show the low-fidelity screens on the left, and screenshots of the corresponding screens in the final implemented interface.
 

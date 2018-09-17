@@ -5,15 +5,19 @@ featuredImage: ./cal_hacks_4.png
 tags: ["design"]
 ---
 
-Cal Hacks 4.0 was the fourth iteraion of Cal Hacks, the world's largest collegiate hackathon. Throughout 2017, I created the branding for [Cal Hacks 4.0](https://calhacks.io) under the general guidance of a California road trip theme, in celebration of the fact that advanced and beginner hackers alike come to California from all over the world to hack with us in Berkeley.
+Cal Hacks 4.0 was the fourth iteraion of Cal Hacks, the world's largest collegiate hackathon. Throughout 2017, I created the branding for <a href="https://calhacks.io#hackathon" target="_blank" class="cycle">Cal Hacks 4.0</a> under the general guidance of a California road trip theme, in celebration of the fact that advanced and beginner hackers alike come to California from all over the world to hack with us in Berkeley.
 
 ![Cal Hacks 4.0](./assets/cal_hacks_4.png)
 
-Every iteration of Cal Hacks gets dressed in a new bear named dd0ski. dd0ski is aptly named &mdash; a [DDoS](https://www.scientificamerican.com/article/what-is-ddos-attack/) is a type of hack (a Distributed Denial of Service attack, to be precise) and [Oski](https://calspirit.berkeley.edu/oski/history.php) is UC Berkeley's mascot.  I designed the Cal Hacks 4.0 dd0ski as the central component of our hackathon's visual identity — this little guy was featured on thousands of shirts, swag bags, badges, wristbands, and more.
+Every iteration of Cal Hacks gets dressed in a new bear named dd0ski. dd0ski is aptly named &mdash; a
+<a href="https://www.scientificamerican.com/article/what-is-ddos-attack/" target="_blank" class="cycle">DDoS</a> is a type of hack (a Distributed Denial of Service attack, to be precise) and
+<a href="https://calspirit.berkeley.edu/oski/history.php" target="_blank" class="cycle">Oski</a>
+ is UC Berkeley's mascot.  I designed the Cal Hacks 4.0 dd0ski as the central component of our hackathon's visual identity — this little guy was featured on thousands of shirts, swag bags, badges, wristbands, and more.
 
 ![Cal Hacks 4.0 dd0ski](./assets/ddoski_4.png)
 
-Cal Hacks 4.0 was marketed to tens of thousands of people around the country. We ultimately ended up hosting over 2000 participants at [California Memorial Stadium](http://www.californiamemorialstadium.com/). Badges, shirts, wristbands, banners, posters, maps, flyers, Snapchat filters, countdowns, decals, and more were all part of the agenda &mdash; below is a complialtion of some of the final products.
+Cal Hacks 4.0 was marketed to tens of thousands of people around the country. We ultimately ended up hosting over 2000 participants at
+<a href="http://www.californiamemorialstadium.com/" target="_blank" class="cycle">California Memorial Stadium</a>. Badges, shirts, wristbands, banners, posters, maps, flyers, Snapchat filters, countdowns, decals, and more were all part of the agenda &mdash; below is a complialtion of some of the final products.
 
 ![Cal Hacks 4.0 Road Trip](./assets/roadtrip.png)
 

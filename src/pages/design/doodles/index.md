@@ -14,3 +14,5 @@ Some illustrations that I've made just for fun.
 ![Berkeley Buildings](./assets/berkeley.png)
 
 ![Illustrated Map of Europe](./assets/armenian.png)
+
+![Circuit Valentine's Heart](./assets/circuits.png)

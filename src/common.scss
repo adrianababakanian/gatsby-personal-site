@@ -80,29 +80,25 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     &:link, &:visited, &:active  {
       color: get(atom);
       text-decoration: none;
-      background-color: get(x_trans_cycle);
       transition: background-color 0.2s ease-in-out;
-      padding: 2px 5px;
       border-radius: 4px;
       border-bottom: none;
-
 
       &.preview {
         border-radius: 8px;
       }
 
       &:hover {
-        background-color: get(trans_cycle);
         font-weight: 600;
       }
     }
   }
 
   a {
-    &.cycle { @include colorize(cycle) }
-    &.matcha { @include colorize(matcha) }
-    &.atomic { @include colorize(atomic) }
-    &.sakura { @include colorize(sakura) }
+    &.cycle { @include colorize(x_trans_cycle) padding: 2px 5px; &:hover { @include colorize(trans_cycle)} }
+    &.matcha { @include colorize(x_trans_matcha) padding: 2px 5px; &:hover { @include colorize(trans_matcha)} }
+    &.atomic { @include colorize(x_trans_atomic) padding: 2px 5px; &:hover { @include colorize(trans_atomic)} }
+    &.sakura { @include colorize(x_trans_sakura) padding: 2px 5px; &:hover { @include colorize(trans_sakura)} }
   }
 
   .about {
