@@ -181,9 +181,11 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     overflow: hidden;
     border-radius: 4px;
     margin: 0 0 40px 0;
-    box-shadow: $shadow;
     position: relative;
     box-shadow: 0 2px 12px 2px get(shadow);
+    .me {
+      width: 100%;
+    }
     .overlay {
       width: 100%;
       height: 100%;
@@ -197,7 +199,10 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     &:hover {
       transform: scale(1.01);
       transition: 0.2s;
-      box-shadow: $deep-shadow;
+      box-shadow: 0 2px 12px 2px get(deep-shadow);
+      .overlay {
+        opacity: 0.05;
+      }
     }
   }
 

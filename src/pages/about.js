@@ -1,5 +1,5 @@
 import React from 'react'
-// import me from './../assets/images/me-min-3.jpg'
+import me from './../assets/images/me-min.jpg'
 
 import './../common.scss';
 
@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <div className="about">
       <div className="me-wrap">
-        {/* <img src={me} classNameName="me"/> */}
+        <img src={me} className="me"/>
         <div className="overlay"/>
       </div>
       <h1>

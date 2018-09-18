@@ -1,7 +1,7 @@
 ---
 title: "Cal Hacks 4.0"
 date: "2017-07-12T17:12:33.962Z"
-featuredImage: ./scaled.png
+featuredImage: ./assets/cal_hacks_4.png
 tags: ["design"]
 ---
 

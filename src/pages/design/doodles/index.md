@@ -1,11 +1,11 @@
 ---
 title: "Doodles"
 date: "2017-04-12T17:12:33.962Z"
-featuredImage: ./scaled.png
+featuredImage: ./assets/doodles.png
 tags: ["design"]
 ---
 
-Some illustrations that I've made just for fun.
+Some illustrations I've made just for fun.
 
 ![Desktop Essentials](./assets/doodles.png)
 

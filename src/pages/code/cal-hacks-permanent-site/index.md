@@ -1,7 +1,7 @@
 ---
 title: "Cal Hacks Permanent Site"
 date: "2018-04-12T17:12:33.962Z"
-featuredImage: ./scaled.png
+featuredImage: ./assets/ch-site.png
 tags: ["code"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Breathing Kirigami"
 date: "2018-04-12T17:12:33.962Z"
-featuredImage: ./scaled.png
+featuredImage: ./assets/show.png
 tags: ["prototyping"]
 ---
 
