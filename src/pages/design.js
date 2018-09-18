@@ -26,6 +26,7 @@ class DesignIndex extends React.Component {
           return (
             <div key={node.fields.slug}>
               <Preview key={node.id} project={node} color="cycle">
+                <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
               </Preview>
             </div>
           )
@@ -38,7 +39,7 @@ class DesignIndex extends React.Component {
 export default DesignIndex
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query DesignQuery {
     site {
       siteMetadata {
         title
@@ -57,14 +58,13 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
-            featuredImage
-            # featuredImage {
-            #     childImageSharp{
-            #         sizes(maxWidth: 630) {
-            #             ...GatsbyImageSharpSizes
-            #         }
-            #     }
-            # }
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 630) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
+            }
           }
         }
       }

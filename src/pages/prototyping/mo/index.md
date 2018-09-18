@@ -1,7 +1,7 @@
 ---
 title: "Mo"
 date: "2018-04-12T17:12:33.962Z"
-featuredImage: ./ddoski_4.png
+featuredImage: ./scaled.png
 tags: ["prototyping"]
 ---
 

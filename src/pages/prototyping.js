@@ -24,6 +24,7 @@ class PrototypingIndex extends React.Component {
           return (
             <div key={node.fields.slug}>
               <Preview key={node.id} project={node} color="atomic">
+                <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
               </Preview>
             </div>
           )
@@ -55,14 +56,13 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
             title
-            featuredImage
-            # featuredImage {
-            #     childImageSharp{
-            #         sizes(maxWidth: 630) {
-            #             ...GatsbyImageSharpSizes
-            #         }
-            #     }
-            # }
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 630) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
+            }
           }
         }
       }

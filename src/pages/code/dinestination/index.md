@@ -1,7 +1,7 @@
 ---
 title: "Dinestination"
 date: "2018-04-12T17:12:33.962Z"
-featuredImage: ./dinestination.png
+featuredImage: ./scaled.png
 tags: ["code"]
 ---
 

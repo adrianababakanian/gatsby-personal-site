@@ -1,7 +1,7 @@
 ---
 title: "Cal Hacks 5.0 Landing Page"
 date: "2018-04-12T17:12:33.962Z"
-featuredImage: ./map.png
+featuredImage: ./scaled.png
 tags: ["code"]
 ---
 

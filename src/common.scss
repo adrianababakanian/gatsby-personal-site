@@ -44,10 +44,6 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
   color: get($color);
 }
 
-img {
-  transform: translateX(-5px);
-}
-
 .gatsby-resp-image-background-image {
   background-image: none;
 }

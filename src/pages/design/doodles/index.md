@@ -1,7 +1,7 @@
 ---
 title: "Doodles"
 date: "2017-04-12T17:12:33.962Z"
-featuredImage: ./doodles.png
+featuredImage: ./scaled.png
 tags: ["design"]
 ---
 
