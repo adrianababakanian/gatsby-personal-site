@@ -1,6 +1,6 @@
 ---
 title: "Dinestination"
-date: "2018-04-12T17:12:33.962Z"
+date: "2018-08-12T17:12:33.962Z"
 featuredImage: ./assets/dinestination.png
 tags: ["design"]
 ---

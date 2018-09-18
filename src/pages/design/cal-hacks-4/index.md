@@ -1,6 +1,6 @@
 ---
 title: "Cal Hacks 4.0"
-date: "2017-07-12T17:12:33.962Z"
+date: "2018-07-12T17:12:33.962Z"
 featuredImage: ./assets/cal_hacks_4.png
 tags: ["design"]
 ---

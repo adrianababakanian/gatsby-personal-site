@@ -1,6 +1,6 @@
 ---
 title: "Cal Hacks Branding"
-date: "2018-07-12T17:12:33.962Z"
+date: "2018-09-12T17:12:33.962Z"
 featuredImage: ./assets/scaled.png
 tags: ["design"]
 ---

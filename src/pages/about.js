@@ -31,8 +31,8 @@ const AboutPage = () => {
         Some things that make me, me &mdash; I'm proudly half-Croatian 🇭🇷 &
         half-Armenian 🇦🇲 , currently am obsessed with
         20th century <a href="https://archive.nytimes.com/www.nytimes.com/books/97/06/15/reviews/marque-solitude.html?mcubz=0" target="_blank" className="sakura">magical realist literature</a>,
-        listen to <a href="https://ohwondermusic.com/" target="_blank" className="sakura">Oh Wonder</a> religiously, and am for no particular reason
-        very proud of my <a href="https://www.pinterest.com/ababakanian/" target="_blank" className="sakura">Pinterest.</a>
+        listen to <a href="https://ohwondermusic.com/" target="_blank" className="sakura">Oh Wonder</a> wholeheartedly, and am
+        constantly augmenting my <a href="https://www.pinterest.com/ababakanian/" target="_blank" className="sakura">Pinterest.</a>
       </h3>
       <h3>
         I'm also super into <a href="http://www.math.uni-duesseldorf.de/~wisbauer/book.pdf" target="_blank" className="sakura">ring theory</a> and the inherently layered

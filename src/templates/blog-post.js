@@ -17,7 +17,6 @@ class BlogPostTemplate extends React.Component {
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-        <Link to="/design">&larr; Back to all </Link>
       </div>
 
     )

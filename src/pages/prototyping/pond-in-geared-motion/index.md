@@ -1,6 +1,6 @@
 ---
 title: "Pond in Geared Motion"
-date: "2018-04-12T17:12:33.962Z"
+date: "2018-08-12T17:12:33.962Z"
 featuredImage: ./assets/koi.png
 tags: ["prototyping"]
 ---

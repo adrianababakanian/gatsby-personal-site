@@ -1,6 +1,6 @@
 ---
 title: "Mo"
-date: "2018-04-12T17:12:33.962Z"
+date: "2018-09-12T17:12:33.962Z"
 featuredImage: ./assets/mo.png
 tags: ["prototyping"]
 ---

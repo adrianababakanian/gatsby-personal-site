@@ -1,6 +1,6 @@
 ---
 title: "Feaster"
-date: "2017-04-12T17:12:33.962Z"
+date: "2018-05-12T17:12:33.962Z"
 featuredImage: ./assets/feaster.png
 tags: ["design"]
 ---

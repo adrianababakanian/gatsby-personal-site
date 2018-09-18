@@ -1,6 +1,6 @@
 ---
 title: "Circumferential Drawing Machine"
-date: "2018-04-12T17:12:33.962Z"
+date: "2018-06-12T17:12:33.962Z"
 featuredImage: ./assets/final.png
 tags: ["prototyping"]
 ---

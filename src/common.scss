@@ -148,7 +148,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
     line-height: 46px;
     width: 500px;
 
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
       width: 100%;
       font: 400 20px Lato;
       line-height: 42px;
@@ -190,7 +190,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
       width: 100%;
       height: 100%;
       background: #fff;
-      opacity: 0.1;
+      opacity: 0.03;
       position: absolute;
       left: 0;
       top: 0;
@@ -201,7 +201,7 @@ $deep-shadow: 0 4px 12px 4px get(deep-shadow);
       transition: 0.2s;
       box-shadow: 0 2px 12px 2px get(deep-shadow);
       .overlay {
-        opacity: 0.05;
+        opacity: 0;
       }
     }
   }

@@ -1,6 +1,6 @@
 ---
 title: "Doodles"
-date: "2017-04-12T17:12:33.962Z"
+date: "2018-06-12T17:12:33.962Z"
 featuredImage: ./assets/doodles.png
 tags: ["design"]
 ---

@@ -19,17 +19,30 @@
   &.atomic { @include colorize(atomic) }
   &.sakura { @include colorize(sakura) }
 
+  img {
+    height: 100%;
+  }
+
   @media (max-width: 700px) {
     width: calc(100% - 10px);
     height: 300px;
+    .gatsby-image-wrapper {
+      height: 305px;
+    }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 650px) {
     height: 280px;
+    .gatsby-image-wrapper {
+      height: 285px;
+    }
   }
 
   @media (max-width: 550px) {
     height: 200px;
+    .gatsby-image-wrapper {
+      height: 205px;
+    }
   }
 
   &:hover {
